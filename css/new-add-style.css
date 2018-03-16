@@ -1,0 +1,234 @@
+#intor{ display: none; }
+
+.badge{
+	font-weight: normal !important;
+}
+/*   add-css 新增css 格式化css */
+
+.deleteBtn{
+	position: absolute;
+	right: 17px;
+	top: 2px;
+}
+
+.second-head{
+
+}
+.second-head .breadcrumb{
+    background: transparent;
+}
+
+#spaceExp{ display: none; }
+
+ .hiddenss{ width: 20px; height: 100%; position: absolute; right: 0; top:6px; background: #f1f2f7; }
+
+.second-head h2{ margin: 0; }
+.second-head {}
+.second-head {}
+
+.thead .fa{ font-size: 16px; margin-right:8px;  }
+
+.table-set .pagination{
+   margin:0 0; 
+}
+.table-set .panel-heading{
+    line-height: 24px;
+}
+
+.table-set .searchpanel label{ line-height: 34px; }
+.table-set .searchpanel .form-group{ margin-bottom: 0; }
+
+.table-set .searchpanel .col-lg-1,
+.table-set .searchpanel .col-lg-8,
+.table-set .searchpanel .col-lg-4,
+.table-set .searchpanel .col-sm-4,
+.table-set .searchpanel .col-sm-12,
+.table-set .searchpanel .col-sm-3,
+.table-set .searchpanel .col-sm-6,
+.table-set .searchpanel .col-sm-8,
+.table-set .searchpanel .col-sm-2{
+	padding: 0;
+}
+
+.gray{ background: #f1f2f7 !important; }
+.sub li{ cursor: pointer; }
+
+.format{}
+.format #main-content{ margin-left: 0; }
+.format .wrapper{ margin-top: 0; }
+#signupForm{ padding:0 0 50px 0; }
+
+.h100{
+	height: 300px;
+	overflow: hidden;
+}
+.h130{
+	height: 300px;
+	overflow: hidden;
+}
+.h160{
+	height: 300px;
+	overflow: hidden;
+}
+.h190{
+	height: 300px;
+	overflow: hidden;
+}
+.h220{
+	height: 300px;
+	overflow: hidden;
+}
+.h250{
+	height: 300px;
+	overflow: hidden;
+}
+.h280{
+	height: 300px;
+	overflow: hidden;
+}
+.h300{
+	height: 300px;
+	overflow: hidden;
+}
+.h320{
+	height: 300px;
+	overflow: hidden;
+}
+.h350{
+	height: 300px;
+	overflow: hidden;
+}
+.h370{
+	height: 300px;
+	overflow: hidden;
+}
+.h400{
+	height: 300px;
+	overflow: hidden;
+}
+
+
+.pdl0{
+	padding-left: 0 !important;
+}
+
+.mr0{
+	margin: 0 !important;
+}
+
+.addtip{ line-height: 34px; display: inline-block; padding-left: 20px; }
+.error{ color: red; }
+.success{ color: green;}
+/* 封面图管理自定义css */
+
+#thumbnail{}
+#thumbnail .imgwarp{
+	width: 180px;
+	/*height: 121px;*/
+	overflow: hidden;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 10px;
+}
+#thumbnail .imgwarp img{
+	display: block;
+　　width: 180px;
+	height: 101px;
+	
+}
+#thumbnail .imgwarp a{
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	background: #f2f2f2;
+	color: #000;
+}
+#thumbnail .imgwarp a:hover{
+	color: #f00;
+}
+
+
+
+/* 封面图优化 */
+.rt00{
+	position: absolute;
+	right: 15px;
+	top: 0;
+	z-index: 3;
+	border-radius: 0 4px 4px 0 !important;
+}
+.Stylemarktag,
+.marktag{
+	position: absolute;
+	left: 15px;
+	top: 0;
+	width: 90%;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 12px;
+	background: #fff;
+	border: 1px solid #e2e2e4;
+	color: #c2c2c2;
+	border-radius:4px;
+	z-index: 1;
+}
+.hiddentag{
+	height: 32px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+
+.mr10{ margin-right: 10px !important; }
+.mr15{ margin-right: 15px !important; }
+.mr20{ margin-right: 20px !important; }
+.mr25{ margin-right: 25px !important; }
+.mr30{ margin-right: 30px !important; }
+.mr35{ margin-right: 35px !important; }
+.mr40{ margin-right: 40px !important; }
+.mr45{ margin-right: 45px !important; }
+
+.mr60{ margin-right: 60px !important; }
+
+.mr80{ margin-right: 80px !important; }
+
+.mr90{ margin-right: 90px !important; }
+
+.mr95{ margin-right: 95px !important; }
+
+.mr100{ margin-right: 100px !important; }
+
+
+
+
+
+
+
+/* 颜色  */
+.red{ color: #f00; }
+.black{ color: #000000;}
+.mainc{ color: #1fb5ad; }
+/* 边框 */
+.bd1{ border-bottom: 1px solid #1fb5ad; }
+
+/* chcked */
+
+.chckedstyle{
+	position: absolute; 
+	top: -20%; 
+	left: -20%; 
+	display: block; 
+	width: 140%; 
+	height: 140%;
+	margin: 0px; 
+	padding: 0px; 
+	border: 0px; 
+	opacity: 0; 
+	background: rgb(255, 255, 255);
+}
+#avatar img{ width: 180px; height: 180px; }

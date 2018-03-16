@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:background-color="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EJCD后台管理平台</title>
+    <script src="js/bmob/bmob-min.js "></script>
+    <script src="js/bmob/key.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.14/dist/vue.js"></script>
+    <style>
+    #nav {
+        line-height:50px;
+        background-color:#ffffff;
+        height:400px;
+        width:500px;
+        position: fixed;
+        top: 250px;
+        left: 600px;
+        padding:5px;
+        border-radius: 10px;
+    }
+    #search_pass_link{
+        width:70%;
+        text-align:right;
+        margin:0 auto;
+        padding:5px;
+    }
+    #search_pass_link{
+        width:70%;
+        text-align:right;
+        margin:0 auto;
+        padding:5px;
+    }
+    /*层级选择器*/
+    #search_pass_link a{
+        color:#000000;
+        text-decoration:none;
+    }
+    /*伪类*/
+    #search_pass_link a:hover{
+        color:#ff0000;
+        text-decoration:underline;
+    }
+
+    #code{
+        color:#ffffff;/*字体颜色白色*/
+        background-color: #000000;
+        font-size:15pt;
+        font-family:"华康娃娃体W5";
+        padding:5px 35px 10px 35px;
+        margin-left:5%;
+        cursor:pointer;
+    }
+    #vcode{
+        height:25px;
+        width:40%;
+        font-size:10pt;
+        margin-left:25%;
+        border-radius:5px;
+        padding-left:8px;
+
+    }
+    #username{
+        height:25px;
+        width:40%;
+        font-size:10pt;
+        margin-left:25%;
+        border-radius:5px;
+        padding-left:8px;
+    }
+    #password{
+        height:25px;
+        width:40%;
+        font-size:10pt;
+        margin-left:25%;
+        border-radius:5px;
+        padding-left:8px;
+    }
+    </style>
+</head>
+
+<body bgcolor="66CCFF"  onload="changeImg()">
+
+
+<div  id = "nav";style="border-radius: 10px">
+    <h2 style="margin-left: 30%">EJCD后台管理平台</h2>
+    <form>
+        <input type="text" placeholder="用户名" name="username" id="username">
+        <br>
+
+        <input type="text" placeholder="密码" name="password" id="password">
+        <br>
+        <input type="text" id="vcode" placeholder="验证码" value="验证码" onfocus="this.value=''" onblur="if(this.value=='')this.value='验证码'"/><span id="code" title="看不清，换一张"></span>
+        <div id="search_pass_link">
+            <a href="#">忘记密码？</a>
+        </div>
+        <input type="button" value="登录"  onclick="check()" style="margin-left: 20%; text-align: center; margin-top: 4%; background-color:#27a9e3; border:none;border-radius: 5px;width: 300px;height: 40px">
+    </form>
+</div>
+
+</body>
+
+<script src="js/login.js"></script>
+</html>
