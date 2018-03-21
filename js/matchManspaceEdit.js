@@ -1,19 +1,19 @@
 window.onload = function () {
     var placeId = location.href.split('=')[1];
-    var Place = Bmob.Object.extend("Place");
-    var query = new Bmob.Query(Place);
+    var Match = Bmob.Object.extend("Match");
+    var query = new Bmob.Query(Match);
     query.get(placeId, {
         success: function(place) {
             // 查询成功，调用get方法获取对应属性的值
-            $('#spacename').val(place.get("placeName"));
+            $('#spacename').val(place.get("matchName"));
             $('#area').val("地名");
-            $('#subject').val(place.get("placeType"));
+            $('#subject').val(place.get("matchType"));
             $('#spacedesc').val("12");
             //缩略图显示
-            var thumbsHtml='';
-            for(var i=0; i<place.get("placeImg1").length; i++){
-                thumbsHtml+='<div class="imgwarp"><img src="'+place.get("placeImg1")[i]._url+'"><a href="javascript:;" imgid="'+place.get("placeImg1")[i]._url+'">删除</a></div>';
-            }
+            // var thumbsHtml='';
+            // for(var i=0; i<place.get("matchImg1").length; i++){
+            //     thumbsHtml+='<div class="imgwarp"><img src="'+place.get("placeImg1")[i]._url+'"><a href="javascript:;" imgid="'+place.get("placeImg1")[i]._url+'">删除</a></div>';
+            // }
             $('#oldthumb').html(thumbsHtml);
 
         },

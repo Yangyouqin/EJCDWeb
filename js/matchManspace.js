@@ -1,6 +1,6 @@
 window.onload = function () {
-    var Place = Bmob.Object.extend("Place");
-    var query = new Bmob.Query(Place);
+    var Match = Bmob.Object.extend("Match");
+    var query = new Bmob.Query(Match);
 // 查询所有数据
     query.find({
         success: function(results) {
@@ -34,9 +34,9 @@ function getAddress(object,i){
         var addComp = rs.addressComponents;
         var address = addComp.province+addComp.city + addComp.district
             + addComp.street + addComp.streetNumber;
-        var allstr ='<tr><td>'+(i+1)+'</td><td>'+object.get("placeName")+'</td><td>'+address+'</td><td>'+object.get("placeType")+'</td>\
+        var allstr ='<tr><td>'+(i+1)+'</td><td>'+object.get("matchName")+'</td><td>'+address+'</td><td>'+object.get("matchType")+'</td>\
                         <td>'+object.createdAt+'</td><td><div class="btn-group">\
-                        <a href="spaceManspaceEdit.html?id='+object.id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i></a>\
+                        <a href="matchManspaceEdit.html?id='+object.id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i></a>\
                         <button spaceid="'+object.id+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i></button>\
                         </div></td></tr>';
         return $deffer.resolve( allstr )

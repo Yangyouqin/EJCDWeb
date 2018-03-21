@@ -1,18 +1,18 @@
 window.onload = function () {
     var placeId = location.href.split('=')[1];
-    var Place = Bmob.Object.extend("Place");
-    var query = new Bmob.Query(Place);
+    var Train = Bmob.Object.extend("Trains");
+    var query = new Bmob.Query(Train);
     query.get(placeId, {
         success: function(place) {
             // 查询成功，调用get方法获取对应属性的值
-            $('#spacename').val(place.get("placeName"));
+            $('#spacename').val(place.get("TrainName"));
             $('#area').val("地名");
-            $('#subject').val(place.get("placeType"));
+            $('#subject').val(place.get("trainType"));
             $('#spacedesc').val("12");
             //缩略图显示
             var thumbsHtml='';
-            for(var i=0; i<place.get("placeImg1").length; i++){
-                thumbsHtml+='<div class="imgwarp"><img src="'+place.get("placeImg1")[i]._url+'"><a href="javascript:;" imgid="'+place.get("placeImg1")[i]._url+'">删除</a></div>';
+            for(var i=0; i<place.get("trainImg1").length; i++){
+                thumbsHtml+='<div class="imgwarp"><img src="'+place.get("trainImg1")[i]._url+'"><a href="javascript:;" imgid="'+place.get("trainImg1")[i]._url+'">删除</a></div>';
             }
             $('#oldthumb').html(thumbsHtml);
 
