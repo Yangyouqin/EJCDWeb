@@ -1,26 +1,62 @@
 window.onload = function () {
+    var pageSize=10,nowPage=1;
+    getManagerList(nowPage,pageSize);
+
+    //选择每页多少条
+    Uiho.effect.selectNum(function(pageSize){
+        getManagerList(nowPage,pageSize)
+    });
+    //选择查询
+    $('#SelectQueryBtn').on('click',function(){
+        //alert(nowPage)
+        // isEnable=$('#isEnable').val();
+        //选择查询
+        getManagerList(nowPage,pageSize)
+    });
+}
+function getManagerList(nowPage,pageSize) {
+
+    var Diary = Bmob.Object.extend("Place");
+    var queryCount = new Bmob.Query(Diary);
+
     var Place = Bmob.Object.extend("Place");
     var query = new Bmob.Query(Place);
-// 查询所有数据
-    query.find({
-        success: function(results) {
-            // alert("共查询到 " + results.length + " 条记录");
-            // 循环处理查询到的数据
-			var allstr;
-            var array = []
-            for (var i = 0; i < results.length; i++) {
-                var object = results[i];
-                var address = getAddress(object,i);
-                array.push(address);
-            }
-            //将内容显示到界面
-            $.when.apply($,array).then(function(){
-            	//处理数组
-                $('#tbody').html(Array.prototype.join.call(arguments,''));
-			})
+    query.limit(pageSize);
+    query.skip((nowPage-1)*pageSize)
+
+    queryCount.count({
+        success: function(count) {
+            // 查询所有数据
+            query.find({
+                success: function(results) {
+                    // alert("共查询到 " + results.length + " 条记录");
+                    // 循环处理查询到的数据
+                    var allstr;
+                    var array = []
+                    for (var i = 0; i < results.length; i++) {
+                        var object = results[i];
+                        var address = getAddress(object,i);
+                        array.push(address);
+                    }
+                    //将内容显示到界面
+                    $.when.apply($,array).then(function(){
+                        //处理数组
+                        $('#tbody').html(Array.prototype.join.call(arguments,''));
+                        //页码选择 分页
+                        $('#pagination').attr('count',count);
+                        var allNum=$('#pagination').attr('count');
+                        Uiho.effect.pagination(allNum,pageSize,nowPage,function(nowPage){
+                            getManagerList(nowPage,pageSize);
+                        });
+                    })
+                },
+                error: function(error) {
+                    alert("查询失败: " + error.code + " " + error.message);
+                }
+            });
         },
         error: function(error) {
-            alert("查询失败: " + error.code + " " + error.message);
+            // 查询失败
         }
     });
 }

@@ -6,16 +6,23 @@ window.onload = function () {
         success: function(place) {
             // 查询成功，调用get方法获取对应属性的值
             $('#spacename').val(place.get("placeName"));
-            $('#area').val("地名");
+
             $('#subject').val(place.get("placeType"));
             $('#spacedesc').val("12");
             //缩略图显示
             var thumbsHtml='';
             for(var i=0; i<place.get("placeImg1").length; i++){
-                thumbsHtml+='<div class="imgwarp"><img src="'+place.get("placeImg1")[i]._url+'"><a href="javascript:;" imgid="'+place.get("placeImg1")[i]._url+'">删除</a></div>';
+                thumbsHtml+='<div class="imgwarp"><img src="'+place.get("placeImg1")[i]._url+'"></div>';
             }
             $('#oldthumb').html(thumbsHtml);
-
+            var point = new BMap.Point(place.get("longitude"),place.get("latitude"));
+            var gc = new BMap.Geocoder();
+            gc.getLocation(point, function(rs) {
+                var addComp = rs.addressComponents;
+                var address = addComp.province+addComp.city + addComp.district
+                    + addComp.street + addComp.streetNumber;
+                $('#area').val(address);
+            });
         },
         error: function(object, error) {
             // 查询失败

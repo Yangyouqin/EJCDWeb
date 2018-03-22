@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3547c8e3-238a-4c6b-aa9f-99c72c03e3f6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/matchManspace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/matchManspaceEdit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/orderManspace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/orderManspaceEdit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/trainManspace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/trainManspaceEdit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/matchManspace.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/matchManspaceEdit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/orderManOrder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/orderManspaceEdit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/trainManspace.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/trainManspaceEdit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/profitManspace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/profitManProfit.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/orderManspace.js" afterPath="$PROJECT_DIR$/js/orderManspace.js" />
       <change beforePath="$PROJECT_DIR$/js/spaceManspace.js" afterPath="$PROJECT_DIR$/js/spaceManspace.js" />
       <change beforePath="$PROJECT_DIR$/js/spaceManspaceEdit.js" afterPath="$PROJECT_DIR$/js/spaceManspaceEdit.js" />
       <change beforePath="$PROJECT_DIR$/spaceManspace.html" afterPath="$PROJECT_DIR$/spaceManspace.html" />
       <change beforePath="$PROJECT_DIR$/spaceManspaceEdit.html" afterPath="$PROJECT_DIR$/spaceManspaceEdit.html" />
+      <change beforePath="$PROJECT_DIR$/trainManspace.html" afterPath="$PROJECT_DIR$/trainManspace.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,77 +28,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trainManspace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/trainManspace.js">
+      <file leaf-file-name="orderManOrder.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orderManOrder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-              <folding>
-                <marker date="1521363123748" expanded="true" signature="1272:1787" ph="..." />
-                <marker date="1521363123748" expanded="true" signature="1441:1782" ph="..." />
-                <marker date="1521363123748" expanded="true" signature="1464:1777" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trainManspace.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trainManspace.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2793">
-              <caret line="147" column="46" lean-forward="false" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
+            <state relative-caret-position="19">
+              <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matchManspace.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matchManspace.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2793">
-              <caret line="147" column="49" lean-forward="false" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+            <state relative-caret-position="133">
+              <caret line="136" column="68" lean-forward="false" selection-start-line="136" selection-start-column="68" selection-end-line="136" selection-end-column="68" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2961#2967#0" expanded="true" />
+                <element signature="e#3113#3119#0" expanded="true" />
+                <element signature="e#3258#3264#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderManOrder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orderManOrder.html">
+      <file leaf-file-name="profitManProfit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profitManProfit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2812">
-              <caret line="148" column="45" lean-forward="false" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
+            <state relative-caret-position="-57">
+              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profitManspace.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/profitManspace.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1521712454595" expanded="true" signature="489:656" ph="..." />
+                <marker date="1521712454595" expanded="true" signature="489:1110" ph="..." />
+                <marker date="1521712454595" expanded="true" signature="731:1105" ph="..." />
+                <marker date="1521712454595" expanded="true" signature="754:815" ph="..." />
+                <marker date="1521712454595" expanded="true" signature="754:1100" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderManspace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/orderManspace.js">
+      <file leaf-file-name="spaceManspace.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/spaceManspace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="589">
+              <caret line="78" column="7" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="78" selection-end-column="7" />
               <folding>
-                <marker date="1521364916725" expanded="true" signature="1008:1140" ph="..." />
-                <marker date="1521364916725" expanded="true" signature="1008:1179" ph="..." />
-                <marker date="1521364916725" expanded="true" signature="1008:1559" ph="..." />
-                <marker date="1521364916725" expanded="true" signature="1213:1554" ph="..." />
-                <marker date="1521364916725" expanded="true" signature="1236:1549" ph="..." />
+                <marker date="1521719126971" expanded="true" signature="2524:3039" ph="..." />
+                <marker date="1521719126971" expanded="true" signature="2693:3034" ph="..." />
+                <marker date="1521719126971" expanded="true" signature="2716:2777" ph="..." />
+                <marker date="1521719126971" expanded="true" signature="2716:2778" ph="..." />
+                <marker date="1521719126971" expanded="true" signature="2716:2789" ph="..." />
+                <marker date="1521719126971" expanded="true" signature="2716:3029" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spaceManspace.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spaceManspace.html">
+      <file leaf-file-name="spaceManspaceEdit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/spaceManspaceEdit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2850">
-              <caret line="150" column="39" lean-forward="false" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+            <state relative-caret-position="19">
+              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -114,49 +108,19 @@
       <file leaf-file-name="spaceManspaceEdit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spaceManspaceEdit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="66" column="107" lean-forward="false" selection-start-line="66" selection-start-column="107" selection-end-line="66" selection-end-column="107" />
+            <state relative-caret-position="291">
+              <caret line="68" column="122" lean-forward="false" selection-start-line="68" selection-start-column="122" selection-end-line="68" selection-end-column="122" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matchManspaceEdit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matchManspaceEdit.html">
+      <file leaf-file-name="spaceManspace.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spaceManspace.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
-              <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trainManspaceEdit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trainManspaceEdit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
-              <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matchManspace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/matchManspace.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="73" lean-forward="false" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-              <folding>
-                <marker date="1521363123721" expanded="true" signature="1269:1784" ph="..." />
-                <marker date="1521363123721" expanded="true" signature="1438:1779" ph="..." />
-                <marker date="1521363123721" expanded="true" signature="1461:1774" ph="..." />
-              </folding>
+            <state relative-caret-position="451">
+              <caret line="146" column="52" lean-forward="false" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,6 +150,8 @@
       <find>比赛</find>
       <find>place</find>
       <find>场地</find>
+      <find>InfoServlet</find>
+      <find>isEnable</find>
     </findStrings>
     <replaceStrings>
       <replace>EJCD后台管理平台</replace>
@@ -211,7 +177,6 @@
         <option value="$PROJECT_DIR$/right.html" />
         <option value="F:/Study_S/EJCDWeb/js/main.js" />
         <option value="$PROJECT_DIR$/js/bmob/bmob.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/bmob/Login.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/login.js" />
@@ -221,21 +186,25 @@
         <option value="$PROJECT_DIR$/showManagerEdit.html" />
         <option value="$PROJECT_DIR$/js/showManager.js" />
         <option value="$PROJECT_DIR$/js/showManagerEdit.js" />
-        <option value="$PROJECT_DIR$/js/spaceManspaceEdit.js" />
-        <option value="$PROJECT_DIR$/js/spaceManspace.js" />
-        <option value="$PROJECT_DIR$/trainManspace.html" />
         <option value="$PROJECT_DIR$/matchManspace.html" />
         <option value="$PROJECT_DIR$/orderManspaceEdit.html" />
         <option value="$PROJECT_DIR$/js/orderManspaceEdit.js" />
         <option value="$PROJECT_DIR$/js/matchManspaceEdit.js" />
         <option value="$PROJECT_DIR$/js/trainManspaceEdit.js" />
-        <option value="$PROJECT_DIR$/spaceManspace.html" />
         <option value="$PROJECT_DIR$/js/matchManspace.js" />
         <option value="$PROJECT_DIR$/js/trainManspace.js" />
         <option value="$PROJECT_DIR$/matchManspaceEdit.html" />
         <option value="$PROJECT_DIR$/trainManspaceEdit.html" />
         <option value="$PROJECT_DIR$/orderManOrder.html" />
+        <option value="$PROJECT_DIR$/trainManspace.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/orderManspace.js" />
+        <option value="$PROJECT_DIR$/profitManProfit.html" />
+        <option value="$PROJECT_DIR$/js/profitManspace.js" />
+        <option value="$PROJECT_DIR$/spaceManspace.html" />
+        <option value="F:/Study_S/driver/js/showManager.js" />
+        <option value="$PROJECT_DIR$/js/spaceManspace.js" />
+        <option value="$PROJECT_DIR$/js/spaceManspaceEdit.js" />
         <option value="$PROJECT_DIR$/spaceManspaceEdit.html" />
       </list>
     </option>
@@ -247,10 +216,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="117" />
-    <option name="y" value="23" />
+    <option name="x" value="25" />
+    <option name="y" value="43" />
     <option name="width" value="1664" />
-    <option name="height" value="1000" />
+    <option name="height" value="929" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -297,15 +266,15 @@
     <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://F:/Study_S/driver/index.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GraduationProject\EJCDWeb" />
-      <recent name="F:\GraduationProject\EJCDWeb\js" />
-      <recent name="E:\EJCDWeb\js" />
-      <recent name="E:\EJCDWeb" />
-      <recent name="F:\Study_S\driver\js\bmob" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\GraduationProject\EJCDWeb\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\EJCDWeb\js" />
+      <recent name="E:\EJCDWeb" />
+      <recent name="F:\GraduationProject\EJCDWeb" />
+      <recent name="F:\GraduationProject\EJCDWeb\js" />
+      <recent name="F:\Study_S\driver\js\bmob" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,7 +310,9 @@
       <workItem from="1521349312718" duration="1793000" />
       <workItem from="1521351712278" duration="6926000" />
       <workItem from="1521422428326" duration="1425000" />
-      <workItem from="1521613951350" duration="14000" />
+      <workItem from="1521613951350" duration="9357000" />
+      <workItem from="1521706391428" duration="853000" />
+      <workItem from="1521707432043" duration="6680000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1521179445546</created>
@@ -350,14 +321,22 @@
       <option name="project" value="LOCAL" />
       <updated>1521179445546</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="22222">
+      <created>1521613979610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521613979610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54915000" />
+    <option name="totallyTimeSpent" value="71791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -386,7 +365,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11111" />
-    <option name="LAST_COMMIT_MESSAGE" value="11111" />
+    <MESSAGE value="22222" />
+    <option name="LAST_COMMIT_MESSAGE" value="22222" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,20 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/avatar1_small.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/avatar1_small1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/avatar-mini.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/avatar-mini-2.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/bucket-logo.png" />
-    <entry file="file://$PROJECT_DIR$/images/chat-avatar2.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/chat-user-thumb.png" />
-    <entry file="file://$PROJECT_DIR$/images/chat-user-thumb-f.png" />
-    <entry file="file://$PROJECT_DIR$/images/crazy-price.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/customSelect-arrow.gif" />
-    <entry file="file://$PROJECT_DIR$/images/details_close.png" />
-    <entry file="file://$PROJECT_DIR$/images/details_open.png" />
-    <entry file="file://$PROJECT_DIR$/images/input-spinner.gif" />
-    <entry file="file://$PROJECT_DIR$/images/logo2.png" />
     <entry file="file://$PROJECT_DIR$/images/nav-expand.png" />
     <entry file="file://$PROJECT_DIR$/images/search-icon.png" />
     <entry file="file://$PROJECT_DIR$/images/sm-img-2.jpg" />
@@ -418,7 +384,6 @@
     <entry file="file://$PROJECT_DIR$/images/sm-img-3.jpg" />
     <entry file="file://$PROJECT_DIR$/images/logo.png" />
     <entry file="file://$PROJECT_DIR$/images/lock_thumb1.jpg" />
-    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css" />
     <entry file="file://F:/Study_S/EJCDWeb/js/main.js" />
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -434,25 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showManagerEdit.html" />
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/showManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showManager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -463,14 +413,6 @@
           <folding>
             <element signature="n#!!block;n#timeTable#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spaceManspaceEdit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,10 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,24 +445,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orderManspaceEdit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
           <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spaceManspace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="73" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -535,35 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trainManspace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="147" column="46" lean-forward="false" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/trainManspace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <marker date="1521363123748" expanded="true" signature="1272:1787" ph="..." />
-            <marker date="1521363123748" expanded="true" signature="1441:1782" ph="..." />
-            <marker date="1521363123748" expanded="true" signature="1464:1777" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/matchManspace.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="38" column="73" lean-forward="false" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-          <folding>
-            <marker date="1521363123721" expanded="true" signature="1269:1784" ph="..." />
-            <marker date="1521363123721" expanded="true" signature="1438:1779" ph="..." />
-            <marker date="1521363123721" expanded="true" signature="1461:1774" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,10 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2793">
           <caret line="147" column="49" lean-forward="false" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,10 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2166">
           <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,50 +484,241 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2166">
           <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="209" column="38" lean-forward="false" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="377" column="1" lean-forward="false" selection-start-line="377" selection-start-column="1" selection-end-line="377" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/showManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/profitManager.js" />
+    <entry file="file://$PROJECT_DIR$/js/trainManspace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainManspace.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/websql.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/orderManspace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1521708906726" expanded="true" signature="1038:1170" ph="..." />
+            <marker date="1521708906726" expanded="true" signature="1038:1209" ph="..." />
+            <marker date="1521708906726" expanded="true" signature="1038:1589" ph="..." />
+            <marker date="1521708906726" expanded="true" signature="1243:1584" ph="..." />
+            <marker date="1521708906726" expanded="true" signature="1266:1579" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orderManOrder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2812">
-          <caret line="148" column="45" lean-forward="false" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="45" />
+        <state relative-caret-position="19">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usermanagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="105" column="41" lean-forward="false" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="157" column="29" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bannerList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bmob/bmob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="340" column="20" lean-forward="false" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experience.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="128" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2758#3789#0" expanded="false" />
+            <marker date="1459851937988" expanded="true" signature="1923:2324" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/orderManspace.js">
+    <entry file="file://F:/Study_S/driver/showManager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="456">
+          <caret line="97" column="71" lean-forward="false" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showManagerEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="136" column="68" lean-forward="false" selection-start-line="136" selection-start-column="68" selection-end-line="136" selection-end-column="68" />
           <folding>
-            <marker date="1521364916725" expanded="true" signature="1008:1140" ph="..." />
-            <marker date="1521364916725" expanded="true" signature="1008:1179" ph="..." />
-            <marker date="1521364916725" expanded="true" signature="1008:1559" ph="..." />
-            <marker date="1521364916725" expanded="true" signature="1213:1554" ph="..." />
-            <marker date="1521364916725" expanded="true" signature="1236:1549" ph="..." />
+            <element signature="e#2961#2967#0" expanded="true" />
+            <element signature="e#3113#3119#0" expanded="true" />
+            <element signature="e#3258#3264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Study_S/driver/js/showManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="51" column="155" lean-forward="false" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="155" />
+          <folding>
+            <element signature="n#!!block;n#ChangeStatus#0" expanded="false" />
+            <element signature="n#!!block;n#Disable#0" expanded="false" />
+            <element signature="n#!!block;n#Enable#0" expanded="false" />
+            <marker date="1458639920085" expanded="true" signature="1447:1453" ph=" " />
+            <marker date="1458639920085" expanded="true" signature="1654:1660" ph=" " />
+            <marker date="1458639920085" expanded="true" signature="2039:2447" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profitManProfit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/profitManspace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1521712454595" expanded="true" signature="489:656" ph="..." />
+            <marker date="1521712454595" expanded="true" signature="489:1110" ph="..." />
+            <marker date="1521712454595" expanded="true" signature="731:1105" ph="..." />
+            <marker date="1521712454595" expanded="true" signature="754:815" ph="..." />
+            <marker date="1521712454595" expanded="true" signature="754:1100" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spaceManspace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="150" column="39" lean-forward="false" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+        <state relative-caret-position="451">
+          <caret line="146" column="52" lean-forward="false" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/spaceManspace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="78" column="7" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="78" selection-end-column="7" />
+          <folding>
+            <marker date="1521719126971" expanded="true" signature="2524:3039" ph="..." />
+            <marker date="1521719126971" expanded="true" signature="2693:3034" ph="..." />
+            <marker date="1521719126971" expanded="true" signature="2716:2777" ph="..." />
+            <marker date="1521719126971" expanded="true" signature="2716:2778" ph="..." />
+            <marker date="1521719126971" expanded="true" signature="2716:2789" ph="..." />
+            <marker date="1521719126971" expanded="true" signature="2716:3029" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/spaceManspaceEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spaceManspaceEdit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="66" column="107" lean-forward="false" selection-start-line="66" selection-start-column="107" selection-end-line="66" selection-end-column="107" />
+        <state relative-caret-position="291">
+          <caret line="68" column="122" lean-forward="false" selection-start-line="68" selection-start-column="122" selection-end-line="68" selection-end-column="122" />
           <folding />
         </state>
       </provider>
