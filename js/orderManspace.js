@@ -6,10 +6,8 @@ window.onload = function () {
         success: function(results) {
             // alert("共查询到 " + results.length + " 条记录");
             // 循环处理查询到的数据
-			var allstr;
-            var array = []
+			var allstr=[];
             for (var i = 0; i < results.length; i++) {
-                var allstr = [];
                 var object = results[i];
                 // 1 下单（待付款） 2 付款（待使用） 3 使用（待评论） 4 售后  5 申请退款 6 退款（退款成功）  7 交易关闭，交易关闭
                 var state = object.get("oderState")
