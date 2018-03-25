@@ -50,7 +50,7 @@
                         <div class="panel-body">
                             <div class="form">
                                 <form class="cmxform form-horizontal " id="signupForm" method="get" action="">
-                                    
+
                                     <div class="form-group ">
                                         <label for="spacename" class="control-label col-lg-3 col-sm-3">培训名称</label>
                                         <div class="col-lg-6 col-sm-6">
@@ -64,35 +64,65 @@
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="subject" class="control-label col-lg-3 col-sm-3">培训类别</label>
+                                        <label for="spaceaddress" class="control-label col-lg-3 col-sm-3">培训地址</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <select class="form-control" id="subject">
-                                                <option value="2">篮球</option>
-                                                <option value="3">足球</option>
-                                                <option value="2">羽毛球</option>
-                                                <option value="3">乒乓球</option>
-                                                <option value="2">排球</option>
-                                                <option value="3">游泳</option>
-                                                <option value="2">乒乓球</option>
-                                                <option value="3">其他</option>
-                                            </select>
+                                            <div class="form-control " id="spaceaddress" name="spaceaddress" type="text" ></div>
                                         </div>
                                     </div>
-                                     <div id="filewarp">
-                                        <div class="form-group ">
-                                            <label for="photo" class="control-label col-lg-3 col-sm-3">图片集</label>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">
-                                            </div>
+                                    <div class="form-group ">
+                                        <label for="phone" class="control-label col-lg-3 col-sm-3">联系电话</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="phone" type="text" />
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-warning col-sm-2" type="button" id="addbanner">新增</button>
-                                            <button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>
+                                    <div class="form-group ">
+                                        <label for="placeNum" class="control-label col-lg-3 col-sm-3">培训数量</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="placeNum" name="spacename" type="text" />
                                         </div>
                                     </div>
-                                    
+                                    <div class="form-group ">
+                                        <label for="price" class="control-label col-lg-3 col-sm-3">价格</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="price" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="type" class="control-label col-lg-3 col-sm-3">培训类别</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="type" type="text" />
+                                        </div>
+                                    </div>
+                                    <!--<div class="form-group ">-->
+                                    <!--<label for="subject" class="control-label col-lg-3 col-sm-3">培训类别</label>-->
+                                    <!--<div class="col-lg-6 col-sm-6">-->
+                                    <!--<select class="form-control" id="subject">-->
+                                    <!--<option value="2">篮球</option>-->
+                                    <!--<option value="3">足球</option>-->
+                                    <!--<option value="2">羽毛球</option>-->
+                                    <!--<option value="3">乒乓球</option>-->
+                                    <!--<option value="2">排球</option>-->
+                                    <!--<option value="3">游泳</option>-->
+                                    <!--<option value="2">乒乓球</option>-->
+                                    <!--<option value="3">其他</option>-->
+                                    <!--</select>-->
+                                    <!--</div>-->
+                                    <!--</div>-->
+                                    <!--<div id="filewarp">-->
+                                    <!--<div class="form-group ">-->
+                                    <!--<label for="profilePhotoFileUpload" class="control-label col-lg-3 col-sm-3">图片集</label>-->
+                                    <!--<div class="col-lg-6 col-sm-6">-->
+                                    <!--<input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">-->
+                                    <!--</div>-->
+                                    <!--</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="form-group">-->
+                                    <!--<div class="col-sm-offset-3 col-lg-6 col-sm-6">-->
+                                    <!--<button class="btn btn-warning col-sm-2" type="button" id="addbanner">新增</button>-->
+                                    <!--<button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>-->
+                                    <!--</div>-->
+                                    <!--</div>-->
+
                                     <div id="thumbnail">
                                         <div class="form-group ">
                                             <label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>
@@ -110,9 +140,9 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-primary col-sm-3" id="saves" type="button" tag="修改">保存</button>
+                                            <button class="btn btn-primary col-sm-3" id="pass" type="button" onclick="passed()" tag="修改">审核通过</button>
                                             <span class="addtip"></span>
-                                           <button class="btn btn-warning col-sm-3 pull-right" id="deletes" type="button">删除培训</button>
+                                            <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="refuse" type="button">审核拒绝</button>
                                         </div>
                                     </div>
                                 </form>
@@ -144,13 +174,13 @@
 <script type="text/javascript" src="js/tool.js"></script>
 
 <script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/trainManspaceEdit.js"></script>
+<script type="text/javascript" src="js/spaceManspaceEdit.js"></script>
 
 <script type="text/javascript" src="js/addSpaceManspace.js"></script>
 
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
-
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
 
 </body>
 </html>
