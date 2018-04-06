@@ -18,13 +18,13 @@ window.onload = function () {
 function getManagerList(nowPage,pageSize,searchtext) {
     var Diary = Bmob.Object.extend("Orders");
     var queryCount = new Bmob.Query(Diary);
-debugger
+
     var Orders = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Orders);
     query.descending("createdAt");
     query.limit(pageSize);
     query.skip((nowPage-1)*pageSize)
-    debugger
+
     if(searchtext!=""){
         query.contains("placeName",searchtext)
         queryCount.contains("placeName",searchtext)

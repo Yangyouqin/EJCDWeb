@@ -6,7 +6,7 @@ window.onload = function () {
     query.find({
         success: function(user) {
             // Do stuff
-			debugger
+
             $('#username').val(user[0].getUsername());
 			$('#sex').val(user[0].get("sex"));
             $('#job').val("管理员");

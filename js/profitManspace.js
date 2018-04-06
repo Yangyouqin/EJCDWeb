@@ -19,7 +19,7 @@ window.onload = function () {
 function getManagerList(nowPage,pageSize,searchtext) {
     var Diary = Bmob.Object.extend("Orders");
     var queryCount = new Bmob.Query(Diary);
-    debugger
+
     var Orders = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Orders);
     //统计收费，按场地分组

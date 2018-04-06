@@ -46,7 +46,7 @@ function getManagerList(nowPage,pageSize,searchtext) {
                         }
                         var userType = managers[i].get("lastLoginTime");
                         userType = '商家用户'
-                        debugger
+
                         handel='<td><div class="btn-group"><a href="showManagerEdit.html?id='+managers[i].id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a><a href="showManagerEdit.html?id='+managers[i].get("username")+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</a></div></td>';
                         allstr+='<tr><td>'+(i+1)+'</td><td>'+userType+'</td><td>'+managers[i].get("username")+'</td>\
                         <td>'+email+'</td><td>'+managers[i].get("mobilePhoneNumber")+'</td>\

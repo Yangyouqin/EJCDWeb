@@ -5,31 +5,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3547c8e3-238a-4c6b-aa9f-99c72c03e3f6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/adManad.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adManadEdit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/adManad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/adManadEdit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/orderManOrder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/charts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/echarts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/profitCharts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/profitCharts.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/NetExamFee.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ResCourseRanking.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/addCompany.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/addbond.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/addcommission.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/addexambond.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/appendC.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apporank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/banner.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bannerAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bannerList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bond.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bondEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bondset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bookingTrain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bookingTrainEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/carService.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/carServiceEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cash.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/changepaddword.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coach.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coachAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coachAppointment.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coachEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/coachIncomeRanking.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comment.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/commentEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/commission.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/commissionList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/company.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/companyEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/courseArraying.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/courseArrayingAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/courseArrayingEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/deposit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ejcd_user.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/enroll.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/examAppo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/examAppoEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/examByStudents.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exambond.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exambondEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/experience.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/experienceEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feedback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feedbackEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/getCoachAccountRanking.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/income.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/incomeDetail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/incomerank.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/ResCourseRanking.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/adManad.js" afterPath="$PROJECT_DIR$/js/adManad.js" />
+      <change beforePath="$PROJECT_DIR$/js/addbond.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/banner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bannerAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bannerList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bannerinit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bond.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bondset.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bookingTrain.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/bookingTrainEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/carService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/carServiceEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/cash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/changepassword.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/coach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/coachAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/coachEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/comment.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/companyEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/courseArraying.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/courseArrayingAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/courseArrayingEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/enroll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/examAppo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/experience.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/feedback.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/feedbackEdit.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/js/matchManspace.js" afterPath="$PROJECT_DIR$/js/matchManspace.js" />
-      <change beforePath="$PROJECT_DIR$/js/orderManspace.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/messages.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/messagesAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/operaLog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/orderManOrder.js" afterPath="$PROJECT_DIR$/js/orderManOrder.js" />
       <change beforePath="$PROJECT_DIR$/js/profitManspace.js" afterPath="$PROJECT_DIR$/js/profitManspace.js" />
+      <change beforePath="$PROJECT_DIR$/js/pushtime.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/js/showManager.js" afterPath="$PROJECT_DIR$/js/showManager.js" />
+      <change beforePath="$PROJECT_DIR$/js/showManagerEdit.js" afterPath="$PROJECT_DIR$/js/showManagerEdit.js" />
       <change beforePath="$PROJECT_DIR$/js/showOwnerUser.js" afterPath="$PROJECT_DIR$/js/showOwnerUser.js" />
+      <change beforePath="$PROJECT_DIR$/js/showOwnerUserEdit.js" afterPath="$PROJECT_DIR$/js/showOwnerUserEdit.js" />
       <change beforePath="$PROJECT_DIR$/js/showUser.js" afterPath="$PROJECT_DIR$/js/showUser.js" />
+      <change beforePath="$PROJECT_DIR$/js/showUserEdit.js" afterPath="$PROJECT_DIR$/js/showUserEdit.js" />
       <change beforePath="$PROJECT_DIR$/js/spaceManspace.js" afterPath="$PROJECT_DIR$/js/spaceManspace.js" />
-      <change beforePath="$PROJECT_DIR$/js/spaceManspaceEdit.js" afterPath="$PROJECT_DIR$/js/spaceManspaceEdit.js" />
+      <change beforePath="$PROJECT_DIR$/js/sparring.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/sparringEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/student.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/studentEdit.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/js/trainManspace.js" afterPath="$PROJECT_DIR$/js/trainManspace.js" />
+      <change beforePath="$PROJECT_DIR$/js/uploadCourse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/usermanagement.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/usermanagementEdit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/validation-init.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/versionEdit.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/matchManspace.html" afterPath="$PROJECT_DIR$/matchManspace.html" />
+      <change beforePath="$PROJECT_DIR$/messages.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/messagesAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/operaLog.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/orderManOrder.html" afterPath="$PROJECT_DIR$/orderManOrder.html" />
       <change beforePath="$PROJECT_DIR$/profitManProfit.html" afterPath="$PROJECT_DIR$/profitManProfit.html" />
-      <change beforePath="$PROJECT_DIR$/showOwnerUser.html" afterPath="$PROJECT_DIR$/showOwnerUser.html" />
-      <change beforePath="$PROJECT_DIR$/showUser.html" afterPath="$PROJECT_DIR$/showUser.html" />
+      <change beforePath="$PROJECT_DIR$/pushtime.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/regInform.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reglnformEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reservation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reservationEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/right.html" afterPath="$PROJECT_DIR$/right.html" />
       <change beforePath="$PROJECT_DIR$/spaceManspace.html" afterPath="$PROJECT_DIR$/spaceManspace.html" />
       <change beforePath="$PROJECT_DIR$/spaceManspaceEdit.html" afterPath="$PROJECT_DIR$/spaceManspaceEdit.html" />
+      <change beforePath="$PROJECT_DIR$/sparring.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sparringEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/student.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/studentEdit.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/trainManspace.html" afterPath="$PROJECT_DIR$/trainManspace.html" />
-      <change beforePath="$PROJECT_DIR$/trainManspaceEdit.html" afterPath="$PROJECT_DIR$/trainManspaceEdit.html" />
+      <change beforePath="$PROJECT_DIR$/updemo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploadCourse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploadCourseEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/usermanagement.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/usermanagementEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/version.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/versionEdit.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,72 +152,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adManad.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adManad.html">
+      <file leaf-file-name="profitCharts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profitCharts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderManOrder.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/orderManOrder.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-              <folding>
-                <marker date="1521951764501" expanded="true" signature="2271:2846" ph="..." />
-                <marker date="1521951764501" expanded="true" signature="2476:2841" ph="..." />
-                <marker date="1521951764501" expanded="true" signature="2499:2836" ph="..." />
-              </folding>
+            <state relative-caret-position="3002">
+              <caret line="158" column="54" lean-forward="false" selection-start-line="158" selection-start-column="54" selection-end-line="158" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adManad.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/adManad.js">
+      <file leaf-file-name="profitCharts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/profitCharts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="44" column="152" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="44" selection-end-column="152" />
-              <folding>
-                <marker date="1521951701054" expanded="true" signature="1604:1860" ph="..." />
-                <marker date="1521951701054" expanded="true" signature="1604:1898" ph="..." />
-                <marker date="1521951701054" expanded="true" signature="1604:2307" ph="..." />
-                <marker date="1521951701054" expanded="true" signature="1936:2302" ph="..." />
-                <marker date="1521951701054" expanded="true" signature="1959:2266" ph="..." />
-                <marker date="1521951701054" expanded="true" signature="1959:2297" ph="..." />
-              </folding>
+            <state relative-caret-position="1083">
+              <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profitManspace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/profitManspace.js">
+      <file leaf-file-name="echarts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/echarts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="39" column="152" lean-forward="false" selection-start-line="39" selection-start-column="152" selection-end-line="39" selection-end-column="152" />
-              <folding>
-                <marker date="1521951764584" expanded="true" signature="1399:2012" ph="..." />
-                <marker date="1521951764584" expanded="true" signature="1641:2007" ph="..." />
-                <marker date="1521951764584" expanded="true" signature="1664:2002" ph="..." />
-              </folding>
+            <state relative-caret-position="438577">
+              <caret line="23083" column="16" lean-forward="false" selection-start-line="23083" selection-start-column="16" selection-end-line="23083" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showManager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/showManager.js">
+      <file leaf-file-name="jquery.sparkline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/sparkline/jquery.sparkline.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="30" column="177" lean-forward="false" selection-start-line="30" selection-start-column="177" selection-end-line="30" selection-end-column="329" />
-              <folding>
-                <marker date="1521943266112" expanded="true" signature="1327:1650" ph="..." />
-              </folding>
+            <state relative-caret-position="21983">
+              <caret line="1357" column="4" lean-forward="false" selection-start-line="1357" selection-start-column="4" selection-end-line="1357" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,38 +207,39 @@
       <file leaf-file-name="profitManProfit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profitManProfit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="879">
-              <caret line="124" column="46" lean-forward="false" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
+            <state relative-caret-position="2356">
+              <caret line="124" column="47" lean-forward="false" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderManOrder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orderManOrder.html">
+      <file leaf-file-name="profitManspace.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/profitManspace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="124" column="48" lean-forward="false" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="248">
+              <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+              <folding>
+                <marker date="1522231331310" expanded="true" signature="1387:2000" ph="..." />
+                <marker date="1522231331310" expanded="true" signature="1629:1995" ph="..." />
+                <marker date="1522231331310" expanded="true" signature="1652:1990" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Q驾后台管理平台</find>
-      <find>col-sm-12</find>
-      <find>欢迎使用Q驾后台管理系统Version 1.0</find>
-      <find>技术支持</find>
-      <find>login</find>
-      <find>login.html</find>
-      <find>oData.object</find>
-      <find>查看场地列表</find>
-      <find>file</find>
-      <find>date</find>
-      <find>f017</find>
       <find>fa-var-eye-slash</find>
       <find>fa</find>
       <find>location.href.</find>
@@ -164,6 +256,20 @@
       <find>query.descending(&quot;-createdAt&quot;);</find>
       <find>upload</find>
       <find>场地</find>
+      <find>重庆优活智联科技有限公司</find>
+      <find>&lt;iframe width=&quot;100%&quot;</find>
+      <find>deb</find>
+      <find>showUser.html</find>
+      <find>showUser</find>
+      <find>ugmentChild</find>
+      <find>iFrameHeight</find>
+      <find>1065</find>
+      <find>100%px</find>
+      <find>setTime</find>
+      <find>height=&quot;636&quot;</find>
+      <find>debugger</find>
+      <find>height=&quot;324&quot;</find>
+      <find>userNum</find>
     </findStrings>
     <replaceStrings>
       <replace>EJCD后台管理平台</replace>
@@ -178,7 +284,12 @@
       <replace>query.descending(&quot;createdAt&quot;);</replace>
       <replace>培训</replace>
       <replace>广告</replace>
+      <replace>100%</replace>
+      <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\EJCDWeb</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,10 +297,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ejcd_user.html" />
-        <option value="$PROJECT_DIR$/js/addmanager.js" />
-        <option value="$PROJECT_DIR$/right.html" />
-        <option value="F:/Study_S/EJCDWeb/js/main.js" />
         <option value="$PROJECT_DIR$/js/bmob/bmob.js" />
         <option value="$PROJECT_DIR$/js/bmob/Login.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
@@ -201,7 +308,6 @@
         <option value="$PROJECT_DIR$/orderManspaceEdit.html" />
         <option value="$PROJECT_DIR$/js/orderManspaceEdit.js" />
         <option value="$PROJECT_DIR$/js/matchManspaceEdit.js" />
-        <option value="$PROJECT_DIR$/js/trainManspaceEdit.js" />
         <option value="$PROJECT_DIR$/matchManspaceEdit.html" />
         <option value="F:/Study_S/driver/js/showManager.js" />
         <option value="$PROJECT_DIR$/showUserEdit.html" />
@@ -212,22 +318,36 @@
         <option value="$PROJECT_DIR$/matchManspace.html" />
         <option value="$PROJECT_DIR$/coachAppointment.html" />
         <option value="$PROJECT_DIR$/orderManOrder.html" />
-        <option value="$PROJECT_DIR$/profitManProfit.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/trainManspace.js" />
-        <option value="$PROJECT_DIR$/js/showUser.js" />
-        <option value="$PROJECT_DIR$/js/showOwnerUser.js" />
         <option value="$PROJECT_DIR$/js/showManager.js" />
         <option value="$PROJECT_DIR$/js/matchManspace.js" />
-        <option value="$PROJECT_DIR$/spaceManspaceEdit.html" />
-        <option value="$PROJECT_DIR$/js/spaceManspaceEdit.js" />
         <option value="$PROJECT_DIR$/spaceManspace.html" />
         <option value="$PROJECT_DIR$/js/spaceManspace.js" />
         <option value="$PROJECT_DIR$/trainManspaceEdit.html" />
         <option value="$PROJECT_DIR$/adManad.html" />
         <option value="$PROJECT_DIR$/js/adManad.js" />
-        <option value="$PROJECT_DIR$/js/profitManspace.js" />
         <option value="$PROJECT_DIR$/js/orderManspace.js" />
+        <option value="$PROJECT_DIR$/right.html" />
+        <option value="$PROJECT_DIR$/profitManProfit.html" />
+        <option value="$PROJECT_DIR$/js/showUser.js" />
+        <option value="$PROJECT_DIR$/js/showOwnerUser.js" />
+        <option value="$PROJECT_DIR$/spaceManspaceEdit.html" />
+        <option value="$PROJECT_DIR$/js/echarts.js" />
+        <option value="$PROJECT_DIR$/charts.html" />
+        <option value="$PROJECT_DIR$/js/versionEdit.js" />
+        <option value="$PROJECT_DIR$/js/trainManspaceEdit.js" />
+        <option value="$PROJECT_DIR$/js/spaceManspaceEdit.js" />
+        <option value="$PROJECT_DIR$/js/enroll.js" />
+        <option value="$PROJECT_DIR$/js/pushtime.js" />
+        <option value="$PROJECT_DIR$/js/ResCourseRanking.js" />
+        <option value="$PROJECT_DIR$/deposit.html" />
+        <option value="$PROJECT_DIR$/coachIncomeRanking.html" />
+        <option value="$PROJECT_DIR$/orderCharts.html" />
+        <option value="$PROJECT_DIR$/ProfitCharts.html" />
+        <option value="$PROJECT_DIR$/profitCharts.html" />
+        <option value="$PROJECT_DIR$/js/profitCharts.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/profitManspace.js" />
       </list>
     </option>
   </component>
@@ -238,8 +358,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="117" />
-    <option name="y" value="23" />
+    <option name="x" value="265" />
+    <option name="y" value="189" />
     <option name="width" value="1664" />
     <option name="height" value="1000" />
   </component>
@@ -261,6 +381,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,35 +389,30 @@
               <item name="ejcd" type="b2602c69:ProjectViewProjectNode" />
               <item name="EJCDWeb" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ejcd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EJCDWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/fe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="orderman&#9;FILE&#9;file://F:/GraduationProject/EJCDWeb/orderManOrder.html&#10;index&#9;FILE&#9;file://F:/Study_S/driver/index.html" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GraduationProject\EJCDWeb\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\EJCDWeb\js" />
       <recent name="F:\GraduationProject\EJCDWeb" />
       <recent name="F:\GraduationProject\EJCDWeb\js" />
-      <recent name="E:\EJCDWeb\js" />
       <recent name="E:\EJCDWeb" />
       <recent name="F:\Study_S\driver\js\bmob" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GraduationProject\EJCDWeb\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,6 +452,9 @@
       <workItem from="1521706391428" duration="853000" />
       <workItem from="1521707432043" duration="6680000" />
       <workItem from="1521942385138" duration="6702000" />
+      <workItem from="1522058071535" duration="828000" />
+      <workItem from="1522202654855" duration="11935000" />
+      <workItem from="1522739055804" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1521179445546</created>
@@ -362,18 +481,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96913000" />
+    <option name="totallyTimeSpent" value="110822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -384,6 +501,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28012684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -406,429 +524,246 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/matchManspaceEdit.js">
+    <entry file="file://$PROJECT_DIR$/js/addmanager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orderManspaceEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/trainManspaceEdit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="125" lean-forward="false" selection-start-line="14" selection-start-column="125" selection-end-line="14" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="209" column="38" lean-forward="false" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="377" column="1" lean-forward="false" selection-start-line="377" selection-start-column="1" selection-end-line="377" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/profitManager.js" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/websql.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usermanagement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="105" column="41" lean-forward="false" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reservation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="157" column="29" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bannerList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bmob/bmob.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="340" column="20" lean-forward="false" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experience.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="128" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/experience.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Study_S/driver/showManager.html" />
-    <entry file="file://$PROJECT_DIR$/showManagerEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Study_S/driver/js/showManager.js" />
-    <entry file="file://$PROJECT_DIR$/matchManspaceEdit.html">
+    <entry file="file://$PROJECT_DIR$/js/addSpaceManspace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adManad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
-          <caret line="114" column="126" lean-forward="false" selection-start-line="114" selection-start-column="126" selection-end-line="114" selection-end-column="126" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/showUserEdit.js">
+    <entry file="file://$PROJECT_DIR$/js/advanced-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bannerinit.js" />
+    <entry file="file://$PROJECT_DIR$/js/bond.js" />
+    <entry file="file://$PROJECT_DIR$/js/bookingTrainEdit.js" />
+    <entry file="file://$PROJECT_DIR$/js/bookingTrain.js" />
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-switch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showUserEdit.html">
+    <entry file="file://$PROJECT_DIR$/js/c3-chart.init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="116" column="51" lean-forward="false" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showOwnerUserEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/showOwnerUserEdit.js">
+    <entry file="file://$PROJECT_DIR$/js/carService.js" />
+    <entry file="file://$PROJECT_DIR$/js/cash.js" />
+    <entry file="file://$PROJECT_DIR$/js/changepassword.js" />
+    <entry file="file://$PROJECT_DIR$/js/courseArraying.js" />
+    <entry file="file://$PROJECT_DIR$/js/evnt.calendar.init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showManager.html">
+    <entry file="file://$PROJECT_DIR$/js/enroll.js" />
+    <entry file="file://$PROJECT_DIR$/js/examAppo.js" />
+    <entry file="file://$PROJECT_DIR$/js/experience.js" />
+    <entry file="file://$PROJECT_DIR$/js/external-dragging-calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="117" column="44" lean-forward="false" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trainManspace.html">
+    <entry file="file://$PROJECT_DIR$/js/gritter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/hover-dropdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="152">
+          <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tool.js">
+    <entry file="file://$PROJECT_DIR$/js/nestable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="146" column="12" lean-forward="false" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
+        <state relative-caret-position="-76">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/operaLog.js" />
+    <entry file="file://$PROJECT_DIR$/js/orderManspaceEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pushtime.js" />
+    <entry file="file://$PROJECT_DIR$/js/sparring.js" />
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ResCourseRanking.js" />
+    <entry file="file://$PROJECT_DIR$/js/theme-switcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/uploadCourse.js" />
+    <entry file="file://$PROJECT_DIR$/js/validation-init.js" />
+    <entry file="file://$PROJECT_DIR$/js/tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1349">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushtime.html" />
+    <entry file="file://$PROJECT_DIR$/enroll.html" />
+    <entry file="file://$PROJECT_DIR$/ejcd_user.html" />
+    <entry file="file://$PROJECT_DIR$/deposit.html" />
+    <entry file="file://$PROJECT_DIR$/coachIncomeRanking.html" />
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/morris.init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1501">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.nicescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/matchManspace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1468224457953" expanded="true" signature="3431:3437" ph=" " />
-            <marker date="1468224457953" expanded="true" signature="3437:3443" ph=" " />
-            <marker date="1468224457953" expanded="true" signature="3443:3449" ph=" " />
+            <marker date="1522206209881" expanded="true" signature="2953:3474" ph="..." />
+            <marker date="1522206209881" expanded="true" signature="3122:3469" ph="..." />
+            <marker date="1522206209881" expanded="true" signature="3145:3464" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coachAppointment.html">
+    <entry file="file://$PROJECT_DIR$/js/sparkline/jquery.sparkline.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+        <state relative-caret-position="21983">
+          <caret line="1357" column="4" lean-forward="false" selection-start-line="1357" selection-start-column="4" selection-end-line="1357" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matchManspace.html">
+    <entry file="file://$PROJECT_DIR$/js/select2/select2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="117" column="71" lean-forward="false" selection-start-line="117" selection-start-column="61" selection-end-line="117" selection-end-column="71" />
+        <state relative-caret-position="4826">
+          <caret line="205" column="35" lean-forward="false" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profitCharts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438577">
+          <caret line="23083" column="16" lean-forward="false" selection-start-line="23083" selection-start-column="16" selection-end-line="23083" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showUser.html">
+    <entry file="file://$PROJECT_DIR$/js/profitCharts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="93" column="36" lean-forward="true" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="427" column="16" lean-forward="false" selection-start-line="427" selection-start-column="16" selection-end-line="427" selection-end-column="16" />
+        <state relative-caret-position="1083">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="158" column="60" lean-forward="false" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/trainManspace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <marker date="1521943266143" expanded="true" signature="1141:1657" ph="..." />
-            <marker date="1521943266143" expanded="true" signature="1141:1662" ph="..." />
-            <marker date="1521943266143" expanded="true" signature="1310:1657" ph="..." />
-            <marker date="1521943266143" expanded="true" signature="1333:1481" ph="..." />
-            <marker date="1521943266143" expanded="true" signature="1333:1525" ph="..." />
-            <marker date="1521943266143" expanded="true" signature="1333:1652" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/showUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <marker date="1521943265999" expanded="true" signature="2358:2681" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/showOwnerUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <marker date="1521943265938" expanded="true" signature="2353:2676" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/matchManspace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <marker date="1521943266170" expanded="true" signature="2965:3486" ph="..." />
-            <marker date="1521943266170" expanded="true" signature="3134:3481" ph="..." />
-            <marker date="1521943266170" expanded="true" signature="3157:3476" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spaceManspaceEdit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spaceManspace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spaceManspace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="86" column="73" lean-forward="true" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
-          <folding>
-            <marker date="1521944007750" expanded="true" signature="3125:3265" ph="..." />
-            <marker date="1521944007750" expanded="true" signature="3125:3294" ph="..." />
-            <marker date="1521944007750" expanded="true" signature="3125:3664" ph="..." />
-            <marker date="1521944007750" expanded="true" signature="3312:3659" ph="..." />
-            <marker date="1521944007750" expanded="true" signature="3335:3654" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spaceManspaceEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="142" column="126" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trainManspaceEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="96" lean-forward="true" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/adManadEdit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adManadEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adManad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showOwnerUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="53" column="89" lean-forward="true" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
+        <state relative-caret-position="3002">
+          <caret line="158" column="54" lean-forward="false" selection-start-line="158" selection-start-column="54" selection-end-line="158" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profitManProfit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="124" column="46" lean-forward="false" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
+        <state relative-caret-position="2356">
+          <caret line="124" column="47" lean-forward="false" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/showManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="177" lean-forward="false" selection-start-line="30" selection-start-column="177" selection-end-line="30" selection-end-column="329" />
-          <folding>
-            <marker date="1521943266112" expanded="true" signature="1327:1650" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/profitManspace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="39" column="152" lean-forward="false" selection-start-line="39" selection-start-column="152" selection-end-line="39" selection-end-column="152" />
+        <state relative-caret-position="248">
+          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
-            <marker date="1521951764584" expanded="true" signature="1399:2012" ph="..." />
-            <marker date="1521951764584" expanded="true" signature="1641:2007" ph="..." />
-            <marker date="1521951764584" expanded="true" signature="1664:2002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/adManad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="44" column="152" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="44" selection-end-column="152" />
-          <folding>
-            <marker date="1521951701054" expanded="true" signature="1604:1860" ph="..." />
-            <marker date="1521951701054" expanded="true" signature="1604:1898" ph="..." />
-            <marker date="1521951701054" expanded="true" signature="1604:2307" ph="..." />
-            <marker date="1521951701054" expanded="true" signature="1936:2302" ph="..." />
-            <marker date="1521951701054" expanded="true" signature="1959:2266" ph="..." />
-            <marker date="1521951701054" expanded="true" signature="1959:2297" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orderManOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="124" column="48" lean-forward="false" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/orderManOrder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-          <folding>
-            <marker date="1521951764501" expanded="true" signature="2271:2846" ph="..." />
-            <marker date="1521951764501" expanded="true" signature="2476:2841" ph="..." />
-            <marker date="1521951764501" expanded="true" signature="2499:2836" ph="..." />
+            <marker date="1522231331310" expanded="true" signature="1387:2000" ph="..." />
+            <marker date="1522231331310" expanded="true" signature="1629:1995" ph="..." />
+            <marker date="1522231331310" expanded="true" signature="1652:1990" ph="..." />
           </folding>
         </state>
       </provider>

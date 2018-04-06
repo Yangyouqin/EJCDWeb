@@ -155,7 +155,7 @@
 							<span>盈利管理</span>
 						</a>
 						<ul class="sub">
-							<li><a data-url="bondset.html" ><i class="fa fa-angle-right"></i> 盈利统计</a></li>
+							<li><a data-url="profitCharts.html" ><i class="fa fa-angle-right"></i> 盈利统计</a></li>
 							<li><a data-url="profitManProfit.html" ><i class="fa fa-angle-right"></i> 场地盈利排行</a></li>
 						</ul>
 					</li>
@@ -170,7 +170,7 @@
 							<li><a data-url="messages.html" ><i class="fa fa-angle-right"></i>消息列表</a></li>
 						</ul>
 					</li>
-					
+
 					<li class="sub-menu">
 						<a href="javascript:;">
 							<i class="fa fa-exclamation"></i>
@@ -179,29 +179,6 @@
 						</a>
 						<ul class="sub">
 							<li><a data-url="feedback.html" ><i class="fa fa-angle-right"></i>查看反馈/举报</a></li>
-						</ul>
-					</li>
-					
-					
-					
-					<li class="sub-menu">
-						<a href="javascript:;">
-							<i class="fa fa-map-marker"></i>
-							<span>版本管理</span>
-						</a>
-						<ul class="sub">
-							<li><a data-url="versionEdit.html" ><i class="fa fa-angle-right"></i>版本管理</a></li>
-						</ul>
-					</li>
-					
-					
-					<li class="sub-menu">
-						<a href="javascript:;">
-							<i class="fa fa-sun-o"></i>
-							<span>操作日志管理</span>
-						</a>
-						<ul class="sub">
-							<li><a data-url="operaLog.html" ><i class="fa fa-angle-right"></i>操作日志</a></li>
 						</ul>
 					</li>
 					
@@ -219,7 +196,7 @@
 			<!-- page start-->
 			<div class="row">
 				<section class="gray panel">
-					<iframe width="100%" border="0" frameborder="0" src="right.html" name="frame" id="frame" title="frame" scrolling="no"  onLoad="iFrameHeight()"></iframe>
+					<iframe width="100%" height="100%" border="0" frameborder="0" src="right.html" name="frame" id="frame" title="frame" scrolling="no"  onLoad="iFrameHeight()"></iframe>
 				</section>
 			</div>
 			<!-- page end-->
@@ -234,7 +211,7 @@
 <script src="bs3/js/bootstrap.min.js"></script>
 <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
 <script src="js/jquery.scrollTo.min.js"></script>
-<script src="js/jquery.nicescroll.js"></script>
+<!--<script src="js/jquery.nicescroll.js"></script>-->
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
 
@@ -252,50 +229,18 @@ $(function(){
 <script type="text/javascript">
 function iFrameHeight() {   
 	setTimeout(function(){
-		var ifm= document.getElementById("frame");   
+		var ifm= document.getElementById("frame");
 		var subWeb = document.frames ? document.frames["frame"].document : ifm.contentDocument;   
 		if(ifm != null && subWeb != null) {
 		   ifm.height = subWeb.body.scrollHeight;
 		} 
-	},500)
+	},2000)
 	  
 };  
 </script>
 <script type="text/javascript" src="js/tool.js"></script>
 <script type="text/javascript" src="js/public.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
-
-
-<!-- 模态框（Modal） -->
-<div class="modal  in" id="myModal" tabindex="-1" role="dialog" 
-   aria-labelledby="myModalLabel" aria-hidden="false" style="display: ">
-   <div class="modal-dialog">
-      <div class="modal-content">
-         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" 
-               aria-hidden="true">×
-            </button>
-            <h4 class="modal-title" id="myModalLabel">
-               升级学员
-            </h4>
-         </div>
-         <div class="modal-body">
-            <input class="form-control " id="money" name="money" type="text" placeholder="保证金金额" />
-         </div>
-         <div class="modal-footer">
-         	<span class="addtip pull-left red"></span>
-            <button type="button" class="btn btn-default close2" 
-               data-dismiss="modal">
-               关闭
-            </button>
-            <button type="button" class="btn btn-primary subBtn">
-               提交
-            </button>
-         </div>
-      </div><!-- /.modal-content -->
-   </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<div class="modal-backdrop in" id="modal-backdrop" style="display: none"></div>
 
 <script type="text/javascript">
 	// window.onload=function(){

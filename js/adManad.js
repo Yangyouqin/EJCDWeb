@@ -25,7 +25,7 @@ function getManagerList(nowPage,pageSize,searchtext) {
     query.skip((nowPage-1)*pageSize);
     query.include("user");
     query.descending("createdAt");
-    debugger
+
     // if(searchtext!=""){
     //     query.contains("placeName",searchtext)
     //     queryCount.contains("placeName",searchtext)
