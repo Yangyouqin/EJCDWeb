@@ -30,7 +30,7 @@
 		<div class="brand">
 	
 			<a href="index.html" class="logo">
-				<img src="images/logo.png" height="60" />
+				<!--<img src="images/logo.png" height="60" />-->
 			</a>
 			<div class="sidebar-toggle-box">
 				<div class="fa fa-bars"></div>
@@ -124,7 +124,7 @@
 							<span>培训管理</span>
 						</a>
 						<ul class="sub">
-							<li><a data-url="bannerAdd.html"><i class="fa fa-angle-right"></i>新增培训</a></li>
+							<li><a data-url="trainManspace.html"><i class="fa fa-angle-right"></i>新增培训</a></li>
 							<li><a data-url="trainManspace.html"><i class="fa fa-angle-right"></i>查看培训列表</a></li>
 						</ul>
 					</li>
@@ -134,7 +134,7 @@
 							<span>比赛管理</span>
 						</a>
 						<ul class="sub">
-							<li><a data-url="courseArrayingAdd.html" ><i class="fa fa-angle-right"></i> 新增比赛</a></li>
+							<li><a data-url="matchManspace.html" ><i class="fa fa-angle-right"></i> 新增比赛</a></li>
 							<li><a data-url="matchManspace.html" ><i class="fa fa-angle-right"></i> 比赛列表</a></li>
 						</ul>
 					</li>
@@ -163,11 +163,11 @@
 					<li class="sub-menu">
 						<a href="javascript:;">
 							<i class="fa fa-comment"></i>
-							<span>消息推送</span>
+							<span>广告管理</span>
 						</a>
 						<ul class="sub">
-							<li><a data-url="messagesAdd.html" ><i class="fa fa-angle-right"></i>新增消息</a></li>
-							<li><a data-url="messages.html" ><i class="fa fa-angle-right"></i>消息列表</a></li>
+							<li><a data-url="adManadEdit.html" ><i class="fa fa-angle-right"></i>新增广告</a></li>
+							<li><a data-url="adManad.html" ><i class="fa fa-angle-right"></i>广告列表</a></li>
 						</ul>
 					</li>
 
@@ -211,45 +211,40 @@
 <script src="bs3/js/bootstrap.min.js"></script>
 <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
 <script src="js/jquery.scrollTo.min.js"></script>
-<!--<script src="js/jquery.nicescroll.js"></script>-->
+<script src="js/jquery.nicescroll.js"></script>
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
 
 <!--common script init for all pages-->
 <script src="js/scripts.js"></script>
 <script type="text/javascript">
-$(function(){
-	$("[data-url]").on('click',function(){
-		$("[data-url]").parent('li').removeClass('active');
-		$(this).parent('li').addClass('active')
-		$("#frame").attr('src',$(this).attr("data-url"));
-	});
-});
+    $(function(){
+        $("[data-url]").on('click',function(){
+            $("[data-url]").parent('li').removeClass('active');
+            $(this).parent('li').addClass('active')
+            $("#frame").attr('src',$(this).attr("data-url"));
+        });
+    });
 </script>
 <script type="text/javascript">
-function iFrameHeight() {   
-	setTimeout(function(){
-		var ifm= document.getElementById("frame");
-		var subWeb = document.frames ? document.frames["frame"].document : ifm.contentDocument;   
-		if(ifm != null && subWeb != null) {
-		   ifm.height = subWeb.body.scrollHeight;
-		} 
-	},2000)
-	  
-};  
+    function iFrameHeight() {
+        setTimeout(function(){
+            var ifm= document.getElementById("frame");
+            var subWeb = document.frames ? document.frames["frame"].document : ifm.contentDocument;
+            if(ifm != null && subWeb != null) {
+                ifm.height = subWeb.body.scrollHeight;
+            }
+        },2000)
+
+    };
 </script>
 <script type="text/javascript" src="js/tool.js"></script>
 <script type="text/javascript" src="js/public.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
+<div class="modal-backdrop in" id="modal-backdrop" style="display: none"></div>
+
 <script type="text/javascript">
-	// window.onload=function(){
-	// 	var oDeleteCookie=document.getElementById('deleteCookie');
-	// 	oDeleteCookie.onclick=function(){
-	// 		Uiho.cookies.removeCookie('userinfo');
-	// 		console.log(Uiho.cookies.getCookie('userinfo'));
-	// 	};
-	// }
 </script>
 </body>
 </html>

@@ -54,75 +54,51 @@
                                     <div class="form-group ">
                                         <label for="spacename" class="control-label col-lg-3 col-sm-3">培训名称</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="spacename" name="spacename" type="text" />
+                                            <input class="form-control " id="spacename" name="spacename" type="text" readonly="readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="area" class="control-label col-lg-3 col-sm-3">区域</label>
+                                        <label for="address" class="control-label col-lg-3 col-sm-3">培训地址</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="area" type="text" />
-                                        </div>
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="spaceaddress" class="control-label col-lg-3 col-sm-3">培训地址</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <div class="form-control " id="spaceaddress" name="spaceaddress" type="text" ></div>
+                                            <input class="form-control " id="address" name="address" type="text" readonly="readonly" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
                                         <label for="phone" class="control-label col-lg-3 col-sm-3">联系电话</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="phone" type="text" />
+                                            <input class="form-control " id="phone" type="text" readonly="readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="placeNum" class="control-label col-lg-3 col-sm-3">培训数量</label>
+                                        <label for="days" class="control-label col-lg-3 col-sm-3">培训天数</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="placeNum" name="spacename" type="text" />
+                                            <input class="form-control " id="days" name="days" type="text" readonly="readonly"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                    <label for="hours" class="control-label col-lg-3 col-sm-3">培训时长</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="hours" type="text" readonly="readonly"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="period" class="control-label col-lg-3 col-sm-3">培训时间</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="period" type="text" readonly="readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
                                         <label for="price" class="control-label col-lg-3 col-sm-3">价格</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="price" type="text" />
+                                            <input class="form-control " id="price" type="text" readonly="readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
                                         <label for="type" class="control-label col-lg-3 col-sm-3">培训类别</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="type" type="text" />
+                                            <input class="form-control " id="type" type="text" readonly="readonly"/>
                                         </div>
                                     </div>
-                                    <!--<div class="form-group ">-->
-                                    <!--<label for="subject" class="control-label col-lg-3 col-sm-3">培训类别</label>-->
-                                    <!--<div class="col-lg-6 col-sm-6">-->
-                                    <!--<select class="form-control" id="subject">-->
-                                    <!--<option value="2">篮球</option>-->
-                                    <!--<option value="3">足球</option>-->
-                                    <!--<option value="2">羽毛球</option>-->
-                                    <!--<option value="3">乒乓球</option>-->
-                                    <!--<option value="2">排球</option>-->
-                                    <!--<option value="3">游泳</option>-->
-                                    <!--<option value="2">乒乓球</option>-->
-                                    <!--<option value="3">其他</option>-->
-                                    <!--</select>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--<div id="filewarp">-->
-                                    <!--<div class="form-group ">-->
-                                    <!--<label for="profilePhotoFileUpload" class="control-label col-lg-3 col-sm-3">图片集</label>-->
-                                    <!--<div class="col-lg-6 col-sm-6">-->
-                                    <!--<input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--<div class="form-group">-->
-                                    <!--<div class="col-sm-offset-3 col-lg-6 col-sm-6">-->
-                                    <!--<button class="btn btn-warning col-sm-2" type="button" id="addbanner">新增</button>-->
-                                    <!--<button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-
                                     <div id="thumbnail">
                                         <div class="form-group ">
                                             <label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>
@@ -133,16 +109,16 @@
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">培训描述</label>
+                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">培训详情</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <textarea class="form-control" id="spacedesc"></textarea>
+                                            <textarea class="form-control" id="spacedesc" readonly="readonly"></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="col-sm-offset-3 col-lg-6 col-sm-6">
                                             <button class="btn btn-primary col-sm-3" id="pass" type="button" onclick="passed()" tag="修改">审核通过</button>
                                             <span class="addtip"></span>
-                                            <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="refuse" type="button">审核拒绝</button>
+                                            <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="refuse()" type="button">审核拒绝</button>
                                         </div>
                                     </div>
                                 </form>
@@ -174,9 +150,7 @@
 <script type="text/javascript" src="js/tool.js"></script>
 
 <script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/spaceManspaceEdit.js"></script>
-
-<script type="text/javascript" src="js/addSpaceManspace.js"></script>
+<script type="text/javascript" src="js/trainManspaceEdit.js"></script>
 
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>

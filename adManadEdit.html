@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="ThemeBucket">
     <link rel="shortcut icon" href="images/favicon.png">
-    <title>场地详情</title>
+    <title>新增广告</title>
     <!--Core CSS -->
     <link href="bs3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
@@ -29,12 +29,12 @@
             <div class="row second-head">
                 <div class="col-lg-12">
                     <div class="head-panel clearfix">
-                        <h2 class=" pull-left">场地管理</h2>
+                        <h2 class=" pull-left">广告管理</h2>
                         <div class=" pull-right">
                             <ul class="breadcrumb">
                                 <li><a href="#index.html"><i class="fa fa-home"></i> 主页</a></li>
-                                <li><a href="#spaceManspace.html" data-url="spaceManspace.html">场地管理</a></li>
-                                <li class="active">场地详情</li>
+                                <li><a href="#spaceManspace.html" data-url="spaceManspace.html">广告管理</a></li>
+                                <li class="active">新增广告</li>
                             </ul>
                         </div>
                     </div>
@@ -45,84 +45,67 @@
                 <div class="col-lg-12">
                     <section class="panel">
                         <header class="panel-heading">
-                            场地详情
+                            新增广告
                         </header>
                         <div class="panel-body">
                             <div class="form">
                                 <form class="cmxform form-horizontal " id="signupForm" method="get" action="">
                                     
                                     <div class="form-group ">
-                                        <label for="spacename" class="control-label col-lg-3 col-sm-3">场地名称</label>
+                                        <label for="adname" class="control-label col-lg-3 col-sm-3">广告名称</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="spacename" name="spacename" type="text" />
+                                            <input class="form-control " id="adname" name="adname" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="area" class="control-label col-lg-3 col-sm-3">区域</label>
+                                        <label for="advertiser" class="control-label col-lg-3 col-sm-3">广告商</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="area" type="text" />
+                                            <input class="form-control " id="advertiser" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="spaceaddress" class="control-label col-lg-3 col-sm-3">场地地址</label>
+                                        <label for="adPhone" class="control-label col-lg-3 col-sm-3">广告商联系电话</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <div class="form-control " id="spaceaddress" name="spaceaddress" type="text" ></div>
+                                            <div class="form-control " id="adPhone" name="adPhone" type="text" ></div>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="phone" class="control-label col-lg-3 col-sm-3">联系电话</label>
+                                        <label for="user" class="control-label col-lg-3 col-sm-3">接单人</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="phone" type="text" />
+                                            <input class="form-control " id="user" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="placeNum" class="control-label col-lg-3 col-sm-3">场地数量</label>
+                                        <label for="startDate" class="control-label col-lg-3 col-sm-3">投放开始时间</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="placeNum" name="spacename" type="text" />
+                                            <input class="form-control " id="startDate" name="startDate" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="price" class="control-label col-lg-3 col-sm-3">价格</label>
+                                        <label for="endDate" class="control-label col-lg-3 col-sm-3">投放结束时间</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="price" type="text" />
+                                            <input class="form-control " id="endDate" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="type" class="control-label col-lg-3 col-sm-3">场地类别</label>
+                                        <label for="payment" class="control-label col-lg-3 col-sm-3">交易金额</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="type" type="text" />
+                                            <input class="form-control " id="payment" type="text" />
                                         </div>
                                     </div>
-                                    <!--<div class="form-group ">-->
-                                        <!--<label for="subject" class="control-label col-lg-3 col-sm-3">场地类别</label>-->
-                                        <!--<div class="col-lg-6 col-sm-6">-->
-                                            <!--<select class="form-control" id="subject">-->
-                                                <!--<option value="2">篮球</option>-->
-                                                <!--<option value="3">足球</option>-->
-                                                <!--<option value="2">羽毛球</option>-->
-                                                <!--<option value="3">乒乓球</option>-->
-                                                <!--<option value="2">排球</option>-->
-                                                <!--<option value="3">游泳</option>-->
-                                                <!--<option value="2">乒乓球</option>-->
-                                                <!--<option value="3">其他</option>-->
-                                            <!--</select>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                     <!--<div id="filewarp">-->
-                                        <!--<div class="form-group ">-->
-                                            <!--<label for="profilePhotoFileUpload" class="control-label col-lg-3 col-sm-3">图片集</label>-->
-                                            <!--<div class="col-lg-6 col-sm-6">-->
-                                                <!--<input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                    <!--<div class="form-group">-->
-                                        <!--<div class="col-sm-offset-3 col-lg-6 col-sm-6">-->
-                                            <!--<button class="btn btn-warning col-sm-2" type="button" id="addbanner">新增</button>-->
-                                            <!--<button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                    
+                                    <div id="filewarp">
+                                        <div class="form-group ">
+                                            <label for="profilePhotoFileUpload" class="control-label col-lg-3 col-sm-3">图片集</label>
+                                            <div class="col-lg-6 col-sm-6">
+                                                <input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-3 col-lg-6 col-sm-6">
+                                            <button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>
+                                        </div>
+                                    </div>
                                     <div id="thumbnail">
                                         <div class="form-group ">
                                             <label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>
@@ -132,17 +115,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group ">
-                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">场地描述</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <textarea class="form-control" id="spacedesc"></textarea>
-                                        </div>
-                                    </div>
                                     <div class="form-group">
                                         <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-primary col-sm-3" id="pass" type="button" onclick="passed()" tag="修改">审核通过</button>
+                                            <button class="btn btn-primary col-sm-3" id="pass" type="button" onclick="passed()" tag="修改">保存</button>
                                             <span class="addtip"></span>
-                                           <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="refuse" type="button">审核拒绝</button>
+                                           <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="refuse()" type="button">取消</button>
                                         </div>
                                     </div>
                                 </form>
@@ -174,9 +151,7 @@
 <script type="text/javascript" src="js/tool.js"></script>
 
 <script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/spaceManspaceEdit.js"></script>
-
-<script type="text/javascript" src="js/addSpaceManspace.js"></script>
+<script type="text/javascript" src="js/adManadEdit.js"></script>
 
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>

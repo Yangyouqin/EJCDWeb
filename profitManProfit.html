@@ -72,13 +72,14 @@
                         <div class="pull-right">
                             <input type="button" class="btn btn-success" id="SelectQueryBtn" value="查询">
                         </div>
+                        <a>导出</a>
                     </header>
                     <div class="panel-body">
                         <section id="unseen">
-                            <table class="table table-bordered table-striped table-condensed">
+                            <table class="table table-bordered table-striped table-condensed" id="table1">
                                 <thead class="thead">
                                     <tr>
-                                        <th class="numeric">序号</th>
+                                        <th class="numeric">排名</th>
                                         <th><i class=""></i>场地名称</th>
                                         <th><i class=""></i>商家姓名</th>
                                         <th class="numeric">订单总收入</th>
@@ -105,7 +106,23 @@
     </section>
     <!--main content end-->
 </section>
+<script>
 
+        setTimeout(function(){
+            // 使用outerHTML属性获取整个table元素的HTML代码（包括<table>标签），然后包装成一个完整的HTML文档，设置charset为urf-8以防止中文乱码
+            var html = "<html><head><meta charset='utf-8' /></head><body>" + document.getElementsByTagName("table")[0].outerHTML + "</body></html>";
+            // 实例化一个Blob对象，其构造函数的第一个参数是包含文件内容的数组，第二个参数是包含文件类型属性的对象
+            var blob = new Blob([html], { type: "application/vnd.ms-excel" });
+            var a = document.getElementsByTagName("a")[2];
+            // 利用URL.createObjectURL()方法为a元素生成blob URL
+            a.href = URL.createObjectURL(blob);
+            // 设置文件名，目前只有Chrome和FireFox支持此属性
+            a.download = "盈利排行表.xls";
+        },2100)
+
+
+
+</script>
 <!--Core js-->
 <script src="js/jquery.js"></script>
 <script src="bs3/js/bootstrap.min.js"></script>

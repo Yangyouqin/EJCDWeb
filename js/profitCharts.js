@@ -4,6 +4,18 @@ window.onload = function () {
 }
 
 function getDate() {
+    var Orders = Bmob.Object.extend("Orders");
+    var query = new Bmob.Query(Orders);
+    query._extraOptions = {"sum":"payment,profit","groupby":"name"};
+    query.ascending("createdAt");
+    query.find({
+        success: function (results) {
+
+        },
+        error: function (error) {
+            alert("查询失败: " + error.code + " " + error.message);
+        }
+    });
     option = {
         title : {
             text: '用户收益',

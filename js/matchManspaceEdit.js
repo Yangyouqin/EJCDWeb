@@ -1,20 +1,27 @@
 window.onload = function () {
-    var placeId = location.href.split('=')[1];
+    var matchId = location.href.split('=')[1];
     var Match = Bmob.Object.extend("Match");
     var query = new Bmob.Query(Match);
-    query.get(placeId, {
-        success: function(place) {
+    query.get(matchId, {
+        success: function(match) {
             // 查询成功，调用get方法获取对应属性的值
-            $('#spacename').val(place.get("matchName"));
-            $('#area').val("地名");
-            $('#subject').val(place.get("matchType"));
-            $('#spacedesc').val("12");
+            $('#matchName').val(match.get("matchName"));
+            $('#type').val(match.get("matchType"));
+            $('#spacedesc').val(match.get("configures").toString());
+            $('#matchMess').val(match.get("matchMess"));
             //缩略图显示
             // var thumbsHtml='';
-            // for(var i=0; i<place.get("matchImg1").length; i++){
-            //     thumbsHtml+='<div class="imgwarp"><img src="'+place.get("placeImg1")[i]._url+'"><a href="javascript:;" imgid="'+place.get("placeImg1")[i]._url+'">删除</a></div>';
-            // }
-            $('#oldthumb').html(thumbsHtml);
+            // thumbsHtml+='<div class="imgwarp"><img src="'+match.get("matchImg")._url+'"></div>';
+            // $('#oldthumb').html(thumbsHtml);
+            var point = new BMap.Point(match.get("longitude"),match.get("latitude"));
+            var gc = new BMap.Geocoder();
+            gc.getLocation(point, function(rs) {
+                var addComp = rs.addressComponents;
+                var address = addComp.province+addComp.city + addComp.district
+                    + addComp.street + addComp.streetNumber;
+                debugger
+                $('#matchAddr').val(address);
+            });
 
         },
         error: function(object, error) {
@@ -23,6 +30,42 @@ window.onload = function () {
     });
 }
 
+
+function passed(){
+    var matchId = location.href.split('=')[1];
+    var Place = Bmob.Object.extend("Match");
+    var query = new Bmob.Query(Place);
+
+// 这个 id 是要修改条目的 objectId，你在
+    query.get(matchId, {
+        success: function(result) {
+            result.set('state', 1);
+            result.save();
+            alert("审核通过！")
+
+        },
+        error: function(object, error) {
+
+        }
+    });
+}
+
+function refuse(){
+    var matchId = location.href.split('=')[1];
+    var Train = Bmob.Object.extend("Match");
+    var query = new Bmob.Query(Train);
+// 这个 id 是要修改条目的 objectId，你在
+    query.get(matchId, {
+        success: function(result) {
+            result.set('state', -1);
+            result.save();
+            alert("审核拒绝！")
+        },
+        error: function(object, error) {
+            alert("失败！")
+        }
+    });
+}
 function upload() {
     var fileUploadControl = $("#profilePhotoFileUpload")[0];
     if (fileUploadControl.files.length > 0) {

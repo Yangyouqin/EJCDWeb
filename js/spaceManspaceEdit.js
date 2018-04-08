@@ -2,13 +2,18 @@ window.onload = function () {
     var placeId = location.href.split('=')[1];
     var Place = Bmob.Object.extend("Place");
     var query = new Bmob.Query(Place);
+    query.include("user");
     query.get(placeId, {
         success: function(place) {
             // 查询成功，调用get方法获取对应属性的值
             $('#spacename').val(place.get("placeName"));
-
+            $('#ownerName').val(place.get("user").get("username"));
             $('#subject').val(place.get("placeType"));
-            $('#spacedesc').val("12");
+            $('#spacedesc').val(place.get("configures").toString());
+            $('#phone').val(place.get("phone"));
+            $('#placeNum').val(place.get("placeNum"));
+            $('#price').val(place.get("price")+"元/时");
+            $('#type').val(place.get("placeType"));
             //缩略图显示
             var thumbsHtml='';
             for(var i=0; i<place.get("placeImg1").length; i++){
@@ -21,7 +26,8 @@ window.onload = function () {
                 var addComp = rs.addressComponents;
                 var address = addComp.province+addComp.city + addComp.district
                     + addComp.street + addComp.streetNumber;
-                $('#area').val(address);
+                debugger
+                $('#address').val(address);
             });
         },
         error: function(object, error) {
@@ -50,9 +56,9 @@ function passed(){
 }
 
 function refuse(){
+    var placeId = location.href.split('=')[1];
     var Place = Bmob.Object.extend("Place");
     var query = new Bmob.Query(Place);
-
 // 这个 id 是要修改条目的 objectId，你在
     query.get(placeId, {
         success: function(result) {
@@ -61,7 +67,7 @@ function refuse(){
             alert("审核拒绝！")
         },
         error: function(object, error) {
-
+            alert("失败！")
         }
     });
 }

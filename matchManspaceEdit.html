@@ -52,67 +52,50 @@
                                 <form class="cmxform form-horizontal " id="signupForm" method="get" action="">
                                     
                                     <div class="form-group ">
-                                        <label for="spacename" class="control-label col-lg-3 col-sm-3">比赛名称</label>
+                                        <label for="matchName" class="control-label col-lg-3 col-sm-3">比赛名称</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="spacename" name="spacename" type="text" />
+                                            <input class="form-control " id="matchName" name="matchName" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="area" class="control-label col-lg-3 col-sm-3">区域</label>
+                                        <label for="matchAddr" class="control-label col-lg-3 col-sm-3">比赛地址</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="area" type="text" />
-                                        </div>
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="subject" class="control-label col-lg-3 col-sm-3">比赛类别</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <select class="form-control" id="subject">
-                                                <option value="2">篮球</option>
-                                                <option value="3">足球</option>
-                                                <option value="2">羽毛球</option>
-                                                <option value="3">乒乓球</option>
-                                                <option value="2">排球</option>
-                                                <option value="3">游泳</option>
-                                                <option value="2">乒乓球</option>
-                                                <option value="3">其他</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                     <div id="filewarp">
-                                        <div class="form-group ">
-                                            <label for="photo" class="control-label col-lg-3 col-sm-3">图片集</label>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">
-                                            </div>
+                                            <input class="form-control " id="matchAddr" name="matchAddr" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-warning col-sm-2" type="button" id="addbanner">新增</button>
-                                            <button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>
-                                        </div>
-                                    </div>
-                                    
-                                    <div id="thumbnail">
-                                        <div class="form-group ">
-                                            <label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>
-                                            <div class="col-lg-8 col-sm-8" id="allthumb">
-                                                <div id="oldthumb"></div>
-                                                <div id="thumbs"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">比赛描述</label>
+                                        <label for="type" class="control-label col-lg-3 col-sm-3">比赛类别</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <textarea class="form-control" id="spacedesc"></textarea>
+                                            <input class="form-control " id="type" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">比赛配置条件</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="spacedesc" type="text" readonly = "readonly"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="matchMess" class="control-label col-lg-3 col-sm-3">比赛信息</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <textarea class="form-control" id="matchMess"readonly="readonly"></textarea>
+                                        </div>
+                                    </div>
+                                    <!--<div id="thumbnail">-->
+                                        <!--<div class="form-group ">-->
+                                            <!--<label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>-->
+                                            <!--<div class="col-lg-8 col-sm-8" id="allthumb">-->
+                                                <!--<div id="oldthumb"></div>-->
+                                                <!--<div id="thumbs"></div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <div class="form-group">
                                         <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-primary col-sm-3" id="saves" type="button" tag="修改">保存</button>
+                                            <button class="btn btn-primary col-sm-3" id="saves" type="button" tag="修改" onclick="passed()">保存</button>
                                             <span class="addtip"></span>
-                                           <button class="btn btn-warning col-sm-3 pull-right" id="deletes" type="button">删除比赛</button>
+                                           <button class="btn btn-warning col-sm-3 pull-right" id="deletes" type="button" onclick="refuse()">删除比赛</button>
                                         </div>
                                     </div>
                                 </form>
@@ -146,10 +129,10 @@
 <script type="text/javascript" src="js/public.js"></script>
 <script type="text/javascript" src="js/matchManspaceEdit.js"></script>
 
-<script type="text/javascript" src="js/addSpaceManspace.js"></script>
-
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+
 
 
 </body>
