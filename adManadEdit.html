@@ -20,7 +20,7 @@
     <link href="js/iCheck/skins/square/green.css" rel="stylesheet">
 </head>
 
-<body style="position: relative; height: 630px;">
+<body style="position: relative; height: 100%;">
 <div class="hiddenss"></div>
 <section id="container" class="format" style="overflow-y: auto;">
     <!--main content start-->
@@ -66,25 +66,32 @@
                                     <div class="form-group ">
                                         <label for="adPhone" class="control-label col-lg-3 col-sm-3">广告商联系电话</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <div class="form-control " id="adPhone" name="adPhone" type="text" ></div>
+                                            <input class="form-control " id="adPhone" type="text" />
                                         </div>
                                     </div>
-                                    <div class="form-group ">
-                                        <label for="user" class="control-label col-lg-3 col-sm-3">接单人</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="user" type="text" />
+                                    <!--<div class="form-group ">-->
+                                        <!--<label for="user" class="control-label col-lg-3 col-sm-3">接单人</label>-->
+                                        <!--<div class="col-lg-6 col-sm-6">-->
+                                            <!--<input class="form-control " id="user" type="text" />-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                        <div class="form-group">
+                                            <label for="user" class="control-label col-lg-3 col-sm-3">接单人</label>
+                                            <div class="col-lg-6 col-sm-6">
+                                                <select class="form-control " id="user">
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
                                     <div class="form-group ">
                                         <label for="startDate" class="control-label col-lg-3 col-sm-3">投放开始时间</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="startDate" name="startDate" type="text" />
+                                            <input class="form-control " id="startDate" name="startDate" type="date" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
                                         <label for="endDate" class="control-label col-lg-3 col-sm-3">投放结束时间</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="endDate" type="text" />
+                                            <input class="form-control " id="endDate" type="date" />
                                         </div>
                                     </div>
                                     <div class="form-group ">

@@ -1,7 +1,7 @@
 window.onload = function () {
     var query = new Bmob.Query(Bmob.User);
     //查出管理员和高级管理员
-    query.containedIn("userType", [3, -1]);
+    query.containedIn("userType", [2]);
     query.descending("createdAt");
     query.find({
         success: function(managers) {
@@ -20,14 +20,7 @@ window.onload = function () {
                 else {
                     lastTime = managers[i].get("lastLoginTime").replace(/\//g, "-")
                 }
-                var userType = managers[i].get("userType");
-                debugger
-                if(userType == -1){
-                    userType = "超级管理员"
-                }
-                else {
-                    userType = "管理员";
-                }
+                var userType = "员工";
 
                 handel='<td><div class="btn-group"><a href="showManagerEdit.html?id='+managers[i].id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a><a href="showManagerEdit.html?id='+managers[i].get("username")+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</a></div></td>';
                 allstr+='<tr><td>'+(i+1)+'</td><td>'+userType+'</td><td>'+managers[i].get("username")+'</td>\

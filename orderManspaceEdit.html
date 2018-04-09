@@ -20,7 +20,7 @@
     <link href="js/iCheck/skins/square/green.css" rel="stylesheet">
 </head>
 
-<body style="position: relative; height: 630px;">
+<body style="position: relative; height: 100%;">
 <div class="hiddenss"></div>
 <section id="container" class="format" style="overflow-y: auto;">
     <!--main content start-->
@@ -50,69 +50,70 @@
                         <div class="panel-body">
                             <div class="form">
                                 <form class="cmxform form-horizontal " id="signupForm" method="get" action="">
-                                    
                                     <div class="form-group ">
-                                        <label for="spacename" class="control-label col-lg-3 col-sm-3">订单名称</label>
+                                        <label for="spacename" class="control-label col-lg-3 col-sm-3">订单编号</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="spacename" name="spacename" type="text" />
+                                            <input class="form-control " id="spacename" name="spacename" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="area" class="control-label col-lg-3 col-sm-3">区域</label>
+                                        <label for="orderName" class="control-label col-lg-3 col-sm-3">订单名称</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="area" type="text" />
+                                            <input class="form-control " id="orderName" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="subject" class="control-label col-lg-3 col-sm-3">订单类别</label>
+                                        <label for="user1" class="control-label col-lg-3 col-sm-3">下单用户名</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <select class="form-control" id="subject">
-                                                <option value="2">篮球</option>
-                                                <option value="3">足球</option>
-                                                <option value="2">羽毛球</option>
-                                                <option value="3">乒乓球</option>
-                                                <option value="2">排球</option>
-                                                <option value="3">游泳</option>
-                                                <option value="2">乒乓球</option>
-                                                <option value="3">其他</option>
-                                            </select>
+                                            <input class="form-control " id="user1" type="text" />
                                         </div>
                                     </div>
-                                     <div id="filewarp">
-                                        <div class="form-group ">
-                                            <label for="photo" class="control-label col-lg-3 col-sm-3">图片集</label>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">
-                                            </div>
+                                    <div class="form-group ">
+                                        <label for="phone1" class="control-label col-lg-3 col-sm-3">下单用户电话</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="phone1" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="phone" class="control-label col-lg-3 col-sm-3">商家联系电话</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="phone" name="phone" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="payment" class="control-label col-lg-3 col-sm-3">订单总价</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="payment" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="profit" class="control-label col-lg-3 col-sm-3">商家盈利</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="profit" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="charge" class="control-label col-lg-3 col-sm-3">平台扣费</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="charge" name="charge" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="dealDate" class="control-label col-lg-3 col-sm-3">下单时间</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="dealDate" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="orderState" class="control-label col-lg-3 col-sm-3">订单状态</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="orderState" name="orderState" type="text" />
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-warning col-sm-2" type="button" id="addbanner">新增</button>
-                                            <button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>
-                                        </div>
-                                    </div>
-                                    
-                                    <div id="thumbnail">
-                                        <div class="form-group ">
-                                            <label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>
-                                            <div class="col-lg-8 col-sm-8" id="allthumb">
-                                                <div id="oldthumb"></div>
-                                                <div id="thumbs"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">订单描述</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <textarea class="form-control" id="spacedesc"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-primary col-sm-3" id="saves" type="button" tag="修改">保存</button>
+                                            <button class="btn btn-primary col-sm-3" id="saves" type="button" tag="返回" onclick="back()">返回</button>
                                             <span class="addtip"></span>
-                                           <button class="btn btn-warning col-sm-3 pull-right" id="deletes" type="button">删除订单</button>
                                         </div>
                                     </div>
                                 </form>

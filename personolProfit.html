@@ -8,24 +8,26 @@
     <meta name="author" content="ThemeBucket">
     <link rel="shortcut icon" href="images/favicon.png">
 
-    <title>管理员管理</title>
+    <title>个人收益</title>
+
     <!--Core CSS -->
     <link href="bs3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
-<!-- 自己添加的样式文件 -->
+    <!-- 自己添加的样式文件 -->
     <link rel="stylesheet" type="text/css" href="css/new-add-style.css">
-    <!--responsive table--> 
+    <!--responsive table-->
     <link href="css/table-responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap-switch.css" />
+    <link href="js/iCheck/skins/square/green.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-
 </head>
 
-<body>
-
-<section id="container" class="format" >
+<body style="height: 100%;">
+<div class="hiddenss"></div>
+<section id="container" class="format" style="overflow-y: auto;">
     <!--main content start-->
     <section id="main-content">
         <section class="wrapper">
@@ -33,11 +35,10 @@
             <div class="row second-head">
                 <div class="col-lg-12">
                     <div class="head-panel clearfix">
-                        <h2 class=" pull-left">管理管理员</h2>
+                        <h2 class=" pull-left">个人收益</h2>
                         <div class=" pull-right">
                             <ul class="breadcrumb">
-                                <li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
-                                <li class="active">管理员信息</li>
+                                <li><a href="#"><i class="fa fa-home"></i> 主页</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,47 +49,41 @@
             <div class="col-sm-12 table-set">
                 <section class="panel">
                     <header class="panel-heading">
-                        管理员信息
+                        个人收益列表
                         <div class="pull-right">
                             <select class="form-control input-sm m-bot15" id="selectNum">
-                                <option value="10">每页10 条</option>
+                                <option value="10">每页 10 条</option>
                                 <option value="20">每页 20 条</option>
-                                <option value="30">每页 30 条</option>
+                                <option value="50">每页 50 条</option>
+                                <option value="100">每页 100 条</option>
                             </select>
                          </div>
                     </header>
                     <header class="panel-heading clearfix searchpanel">
-                        <div class="pull-left col-lg-11 col-sm-11">
+                        <div class="pull-left col-sm-11  col-lg-11">
                             <div class="form-group pull-left col-lg-4 col-sm-3">
-                                <label for="name" class="control-label col-lg-2 col-sm-2">用户名</label>
-                                <div class="col-lg-8 col-sm-8">
-                                    <!--<select class="form-control " id="isEnable">-->
-                                        <!--<option value="">所有状态</option>-->
-                                        <!--<option value="1">启用</option>-->
-                                        <!--<option value="0">禁用</option>-->
-                                    <!--</select>-->
-                                    <input class="form-control " id="name" name="name" type="text"
-                                           placeholder="用户名"/>
+                                <label for="name" class="control-label col-lg-2 col-sm-4">商家名称</label>
+                                <div class="col-lg-8 col-sm-6">
+                                    <input class="form-control " id="name" name="name" type="text" placeholder="商家名称" />
                                 </div>
                             </div>
                         </div>
                         <div class="pull-right">
                             <input type="button" class="btn btn-success" id="SelectQueryBtn" value="查询">
                         </div>
+                        <a>导出</a>
                     </header>
                     <div class="panel-body">
                         <section id="unseen">
-                            <table class="table table-bordered table-striped table-condensed">
+                            <table class="table table-bordered table-striped table-condensed" id="table1">
                                 <thead class="thead">
                                     <tr>
-                                        <th class="num">编号</th>
-                                        <th class="numeric">用户类型</th>
-                                        <th>用户名</th>
-                                        <th><i class="fa "></i>邮箱</th>
-                                        <th><i class="fa  fa-mobile-phone"></i>手机号码</th>
-                                        <th class="numeric"><i class="fa fa-clock-o"></i>最后登录时间</th>
-                                        <th class="numeric"><i class="fa fa-clock-o"></i>创建时间</th>
-                                        <th id="handle"><i class="fa fa-wrench"></i>操作</th>
+                                        <th class="numeric">序号</th>
+                                        <th class="numeric">商家姓名</th>
+                                        <th><i class=""></i>年度税前收入</th>
+                                        <th><i class=""></i>年度实际收入</th>
+                                        <th class="numeric">平台盈利</th>
+                                        <th class="numeric"><i class="fa fa-wrench"></i>操作</th>
                                     </tr>
                                 </thead>
                                 <tbody id="tbody">
@@ -97,6 +92,7 @@
                             </table>
                         </section>
                         <div class="box-footer clearfix" id="pagination">
+
                         </div>
                     </div>
 
@@ -108,16 +104,46 @@
     </section>
     <!--main content end-->
 </section>
+<script>
 
+        setTimeout(function(){
+            // 使用outerHTML属性获取整个table元素的HTML代码（包括<table>标签），然后包装成一个完整的HTML文档，设置charset为urf-8以防止中文乱码
+            var html = "<html><head><meta charset='utf-8' /></head><body>" + document.getElementsByTagName("table")[0].outerHTML + "</body></html>";
+            // 实例化一个Blob对象，其构造函数的第一个参数是包含文件内容的数组，第二个参数是包含文件类型属性的对象
+            var blob = new Blob([html], { type: "application/vnd.ms-excel" });
+            var a = document.getElementById("dy");
+            // 利用URL.createObjectURL()方法为a元素生成blob URL
+            a.href = URL.createObjectURL(blob);
+            // 设置文件名，目前只有Chrome和FireFox支持此属性
+            a.download = "盈利排行表.xls";
+        },2100)
+
+
+
+</script>
 <!--Core js-->
 <script src="js/jquery.js"></script>
 <script src="bs3/js/bootstrap.min.js"></script>
 
+<!--common script init for all pages-->
+<script src="js/scripts.js"></script>
+<script src="js/bootstrap-switch.js"></script>
+
+<!-- iCheck表单美化插件 -->
+<script src="js/iCheck/jquery.icheck.js"></script>
+
+<!--icheck init -->
+<script src="js/icheck-init.js"></script>
 
 <script type="text/javascript" src="js/tool.js"></script>
 <script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/showUser.js"></script>
+<script type="text/javascript" src="js/personalProfit.js"></script>
+
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+
+
 </body>
 </html>
