@@ -28,7 +28,7 @@ window.onload = function () {
                 var addComp = rs.addressComponents;
                 var address = addComp.province+addComp.city + addComp.district
                     + addComp.street + addComp.streetNumber;
-                debugger
+
                 $('#address').val(address);
             });
 
@@ -40,8 +40,8 @@ window.onload = function () {
 }
 function passed(){
     var trainId = location.href.split('=')[1];
-    var Place = Bmob.Object.extend("Place");
-    var query = new Bmob.Query(Place);
+    var Train = Bmob.Object.extend("Trains");
+    var query = new Bmob.Query(Train);
 
 // 这个 id 是要修改条目的 objectId，你在
     query.get(trainId, {
@@ -49,7 +49,7 @@ function passed(){
             result.set('state', 1);
             result.save();
             alert("审核通过！")
-
+            window.location.href="trainManspace.html";
         },
         error: function(object, error) {
 
@@ -67,6 +67,7 @@ function refuse(){
             result.set('state', -1);
             result.save();
             alert("审核拒绝！")
+            window.location.href="trainManspace.html";
         },
         error: function(object, error) {
             alert("失败！")

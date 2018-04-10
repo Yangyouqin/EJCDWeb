@@ -65,7 +65,6 @@ function getManagerList(nowPage,pageSize,searchtext) {
     });
 }
 function getAddress(object,i){
-
     var state = object.get("state");
     if(state == 0){
         state = "待审核";
@@ -86,10 +85,13 @@ function getAddress(object,i){
         var allstr ='<tr><td>'+(i+1)+'</td><td>'+object.get("placeName")+'</td><td>'+address+'</td><td>'+object.get("placeType")+'</td>\
                         <td>'+object.createdAt+'</td><td>'+state+'</td><td><div class="btn-group">\
                         <a href="spaceManspaceEdit.html?id='+object.id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
-                        <button spaceid="'+object.id+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</button>\
                         </div></td></tr>';
         return $deffer.resolve( allstr )
+
     });
+    // var xj = document.getElementById("xj");
+    //
+    // var s = xj.getAttribute("spaceid");
     return $deffer.promise();
 }
 

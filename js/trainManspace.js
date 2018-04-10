@@ -16,6 +16,15 @@ window.onload = function () {
     });
 }
 function getAddress(object,i){
+    var state = object.get("state");
+    if(state == 0){
+        state = "待审核";
+    }
+    else if(state == 1){
+        state = "审核通过"
+    }else {
+        state = "审核拒绝"
+    }
     var map = new BMap.Map("allmap");
     var $deffer = $.Deferred()
     var address;
@@ -26,9 +35,8 @@ function getAddress(object,i){
         var address = addComp.province+addComp.city + addComp.district
             + addComp.street + addComp.streetNumber;
         var allstr ='<tr><td>'+(i+1)+'</td><td>'+object.get("trainName")+'</td><td>'+address+'</td><td>'+object.get("trainType")+'</td>\
-                        <td>'+object.createdAt+'</td><td><div class="btn-group">\
+                        <td>'+object.createdAt+'</td><td>'+state+'</td><td><div class="btn-group">\
                         <a href="trainManspaceEdit.html?id='+object.id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
-                        <button spaceid="'+object.id+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</button>\
                         </div></td></tr>';
         return $deffer.resolve( allstr )
     });

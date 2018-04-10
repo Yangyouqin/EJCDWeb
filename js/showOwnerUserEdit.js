@@ -11,7 +11,7 @@ window.onload = function () {
 			$('#sex').val(user[0].get("sex"));
             $('#job').val("管理员");
             $('#mobile').val(user[0].get("mobilePhoneNumber"));
-            $('#tel').val(user[0].get("email"));
+            $('#tel').val(user[0].getEmail());
         }
     });
 

@@ -7,9 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="ThemeBucket">
     <link rel="shortcut icon" href="images/favicon.png">
-
-    <title>广告管理</title>
-
+    <title>新增员工</title>
     <!--Core CSS -->
     <link href="bs3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
@@ -19,81 +17,116 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="js/iCheck/skins/square/green.css" rel="stylesheet">
 </head>
 
-<body>
-
-<section id="container" class="format">
+<body style="position: relative; height: 100%;">
+<div class="hiddenss"></div>
+<section id="container" class="format" style="overflow-y: auto;">
     <!--main content start-->
     <section id="main-content">
         <section class="wrapper">
             <div class="row second-head">
                 <div class="col-lg-12">
                     <div class="head-panel clearfix">
-                        <h2 class=" pull-left">广告管理</h2>
+                        <h2 class=" pull-left">员工管理</h2>
                         <div class=" pull-right">
                             <ul class="breadcrumb">
                                 <li><a href="#"><i class="fa fa-home"></i> 主页</a></li>
-                                <li><a href="#">广告管理</a></li>
+                                <li><a href="#" data-url="spaceManspace.html">员工管理</a></li>
+                                <li class="active">新增员工</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- page start-->
-            </header>
             <div class="row">
-                <div class="col-sm-12 table-set">
+                <div class="col-lg-12">
                     <section class="panel">
                         <header class="panel-heading">
-                            订单列表
-                            <div class="pull-right">
-                                <select class="form-control input-sm m-bot15" id="selectNum">
-                                    <option value="10">每页 10 条</option>
-                                    <option value="20">每页 20 条</option>
-                                    <option value="50">每页 50 条</option>
-                                    <option value="100">每页 100 条</option>
-                                </select>
-                            </div>
-                        </header>
-                        <header class="panel-heading clearfix searchpanel">
-                            <div class="pull-left col-sm-11  col-lg-11">
-                                <div class="form-group pull-left col-lg-4 col-sm-3">
-                                    <label for="name" class="control-label col-lg-2 col-sm-4">订单编号</label>
-                                    <div class="col-lg-8 col-sm-6">
-                                        <input class="form-control " id="name" name="name" type="text"
-                                               placeholder="订单名称"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pull-right">
-                                <input type="button" class="btn btn-success" id="SelectQueryBtn" value="查询">
-                            </div>
+                            新增员工
                         </header>
                         <div class="panel-body">
-                            <section id="unseen">
-                                <table class="table table-bordered table-striped table-condensed" id="table1">
-                                    <thead class="thead">
-                                    <tr>
-                                        <th class="numeric">序号</th>
-                                        <th class="numeric">广告名称</th>
-                                        <th><i class=""></i>广告商</th>
-                                        <th><i class=""></i>联系电话</th>
-                                        <th class="numeric">接单人</th>
-                                        <th class="numeric">播放时间段</th>
-                                        <th class="numeric">交易金额</th>
-                                        <th class="numeric">交易时间</th>
-                                        <th class="numeric"><i class="fa fa-wrench"></i>操作</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody id="tbody">
+                            <div class="form">
+                                <form class="cmxform form-horizontal " id="signupForm" method="get" action="">
 
-                                    </tbody>
-                                </table>
+                                    <div class="form-group ">
+                                        <label for="username" class="control-label col-lg-3 col-sm-3">姓名</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="username" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="password" class="control-label col-lg-3 col-sm-3">密码</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="password" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="sex" class="control-label col-lg-3 col-sm-3">性别</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <select class="form-control " id="sex">
+                                                <option value="男">男</option>
+                                                <option value="女">女</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="filewarp">
+                                        <div class="form-group ">
+                                            <label for="profilePhotoFileUpload" class="control-label col-lg-3 col-sm-3">头像</label>
+                                            <div class="col-lg-6 col-sm-6">
+                                                <input type="file" id="profilePhotoFileUpload" name="fileInput" class="form-control fileInput">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-3 col-lg-6 col-sm-6">
+                                            <button class="btn btn-primary col-sm-3 col-md-offset-1  col-sm-offset-1" onclick="upload()" type="button">上传</button>
+                                        </div>
+                                    </div>
+                                    <div id="thumbnail">
+                                        <div class="form-group ">
+                                            <label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>
+                                            <div class="col-lg-8 col-sm-8" id="allthumb">
+                                                <div id="oldthumb"></div>
+                                                <div id="thumbs"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="position" class="control-label col-lg-3 col-sm-3">职位</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <select class="form-control " id="position">
+                                                <option value="-1">超级管理员</option>
+                                                <option value="3">管理员</option>
+                                                <option value="2">员工</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="phone" class="control-label col-lg-3 col-sm-3">联系电话</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="phone" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="email" class="control-label col-lg-3 col-sm-3">邮箱</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="email" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-3 col-lg-6 col-sm-6">
+                                            <button class="btn btn-primary col-sm-3" id="pass" type="button" onclick="passed()" tag="注册">注册</button>
+                                            <span class="addtip"></span>
+                                            <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="refuse()" type="button">取消</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </section>
-                    <div class="box-footer clearfix" id="pagination">
-
-                    </div>
                 </div>
             </div>
             <!-- page end-->
@@ -107,15 +140,21 @@
 <!--Core js-->
 <script src="js/jquery.js"></script>
 <script src="bs3/js/bootstrap.min.js"></script>
+
 <!--common script init for all pages-->
 <script src="js/scripts.js"></script>
 
+<!-- iCheck表单美化插件 -->
+<script src="js/iCheck/jquery.icheck.js"></script>
+
+<!--icheck init -->
+<script src="js/icheck-init.js"></script>
 <script type="text/javascript" src="js/tool.js"></script>
+
 <script type="text/javascript" src="js/public.js"></script>
 <script type="text/javascript" src="js/addmanager.js"></script>
+
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
-
-
 </body>
 </html>

@@ -37,7 +37,7 @@ function getManagerList(nowPage,pageSize,searchtext) {
                     //如果不为空才进行统计,显示到界面上
                     if (results.length!=0) {
                         var n = results.length;
-                        debugger
+
                         for (var i = 0; i < n - 1; i++) {
                             for (var j = 0; j < n - 1; j++) {
                                 if (results[j].get("_sumPayment") < results[j + 1].get("_sumPayment")) {
@@ -50,8 +50,7 @@ function getManagerList(nowPage,pageSize,searchtext) {
                         for(var i = 0; i<results.length; i++){
                             var str ='<tr><td>'+(i+1)+'</td><td>'+results[i].get("name")+'</td><td>'+results[i].get("ownerUser").get("username")+'</td><td>'+results[i].get("_sumPayment")+'</td>\
                         <td>'+results[i].get("_sumPayment")+'</td><td>'+results[i].get("_sumCharge")+'</td><td><div class="btn-group">\
-                        <a href="orderManspaceEdit.html?id='+results[i].id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
-                        <a href="showManagerEdit.html?id='+results[i].id+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</a>\
+                        <a href="orderPlace.html?id='+results[i].get("typeId")+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
                         </div></td></tr>';
                             allstr.push(str);
                         }

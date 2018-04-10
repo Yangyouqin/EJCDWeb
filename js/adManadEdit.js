@@ -1,20 +1,27 @@
-$(function () {
-    userList()
-})
+window.onload = function () {
+    var a = document.getElementById("deleteImg");
+    a.onclick = function () {
+        var str = '';
+
+        $('#oldthumb').append(str)
+    }
+}
 function upload() {
     var fileUploadControl = $("#profilePhotoFileUpload")[0];
     if (fileUploadControl.files.length > 0) {
         var file = fileUploadControl.files[0];
         var file = new Bmob.File(file.name, file);
         file.save().then(function(obj) {
-            var str = $('<div class="imgwarp"><img src="'+obj._url+'"><a href="javascript:;" imgid="'+obj._url+'">删除</a></div>')
+            var str = $('<div class="imgwarp"><img src="'+obj._url+'"><button class="newimage" id="deleteImg" type="button" tag="删除">删除</button></div>')
             //把上传的图片加载在下方
             $('#oldthumb').append(str)
+            deletenewimage();
         }, function(error) {
             // the save failed.
         });
     }
 }
+
 function passed(){
 
     var Advertisement = Bmob.Object.extend("Advertisement");
@@ -46,28 +53,16 @@ function passed(){
         }, function(error) {
             // the save failed.
         });
+    }else {
+        alert("请先上传图片");
     }
-}
-
-function userList() {
-    var query = new Bmob.Query(Bmob.User);
-    //查出管理员和高级管理员
-    query.containedIn("userType", [2]);
-    query.descending("createdAt");
-    query.find({
-        success: function(managers) {
-            managers.forEach(function (value) {
-                var str = '<option value="'+value.id+'">'+value.get("username")+'</option>'
-                $('#user').append(str)
-            })
-        }
-    });
 }
 
 function refuse(){
     window.location.href="adManad.html";
     alert("返回界面");
 }
+
 
 
 

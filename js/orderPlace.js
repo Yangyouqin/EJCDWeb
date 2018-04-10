@@ -16,12 +16,17 @@ window.onload = function () {
     });
 }
 function getManagerList(nowPage,pageSize,searchtext) {
+
+    var typeId = location.href.split('=')[1];
     var Diary = Bmob.Object.extend("Orders");
     var queryCount = new Bmob.Query(Diary);
+    queryCount.equalTo("typeId",typeId);
 
     var Orders = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Orders);
     query.descending("createdAt");
+
+    query.equalTo("typeId",typeId);
     query.limit(pageSize);
     query.skip((nowPage-1)*pageSize)
 

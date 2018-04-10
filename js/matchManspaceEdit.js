@@ -19,7 +19,7 @@ window.onload = function () {
                 var addComp = rs.addressComponents;
                 var address = addComp.province+addComp.city + addComp.district
                     + addComp.street + addComp.streetNumber;
-                debugger
+
                 $('#matchAddr').val(address);
             });
 
@@ -42,6 +42,7 @@ function passed(){
             result.set('state', 1);
             result.save();
             alert("审核通过！")
+            window.location.href="matchManspace.html";
 
         },
         error: function(object, error) {
@@ -60,6 +61,7 @@ function refuse(){
             result.set('state', -1);
             result.save();
             alert("审核拒绝！")
+            window.location.href="matchManspace.html";
         },
         error: function(object, error) {
             alert("失败！")

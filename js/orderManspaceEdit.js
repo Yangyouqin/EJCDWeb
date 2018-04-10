@@ -1,6 +1,6 @@
 window.onload = function () {
     var orderId = location.href.split('=')[1];
-    debugger
+
     var Order = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Order);
     query.include("user");
@@ -44,7 +44,7 @@ window.onload = function () {
             //     var addComp = rs.addressComponents;
             //     var address = addComp.province+addComp.city + addComp.district
             //         + addComp.street + addComp.streetNumber;
-            //     debugger
+            //
             //     $('#address').val(address);
             // });
         },
