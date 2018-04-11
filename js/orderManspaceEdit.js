@@ -1,6 +1,5 @@
 window.onload = function () {
     var orderId = location.href.split('=')[1];
-
     var Order = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Order);
     query.include("user");

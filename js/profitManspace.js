@@ -20,13 +20,13 @@ window.onload = function () {
 function getManagerList(nowPage,pageSize,searchtext) {
     var Diary = Bmob.Object.extend("Orders");
     var queryCount = new Bmob.Query(Diary);
-    queryCount._extraOptions = {"sum":"payment,profit,charge","groupby":"name,ownerUser"};
+    queryCount._extraOptions = {"sum":"payment,profit,charge","groupby":"name,typeId,ownerUser"};
 
     var Orders = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Orders);
     query.include("ownerUser");
     //统计收费，按场地分组
-    query._extraOptions = {"sum":"payment,profit,charge","groupby":"name,ownerUser"};
+    query._extraOptions = {"sum":"payment,profit,charge","groupby":"name,typeId,ownerUser"};
 
     queryCount.count({
         success: function(count) {
@@ -47,6 +47,7 @@ function getManagerList(nowPage,pageSize,searchtext) {
                                 }
                             }
                         }
+                        debugger
                         for(var i = 0; i<results.length; i++){
                             var str ='<tr><td>'+(i+1)+'</td><td>'+results[i].get("name")+'</td><td>'+results[i].get("ownerUser").get("username")+'</td><td>'+results[i].get("_sumPayment")+'</td>\
                         <td>'+results[i].get("_sumPayment")+'</td><td>'+results[i].get("_sumCharge")+'</td><td><div class="btn-group">\

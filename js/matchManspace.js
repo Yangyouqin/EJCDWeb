@@ -71,8 +71,10 @@ function getAddress(object,i){
     }
     else if(state == 1){
         state = "审核通过"
+    }else if(state == 2){
+        state = "已下架"
     }else {
-        state = "审核拒绝"
+        state = "审核拒绝";
     }
     var map = new BMap.Map("allmap");
     var $deffer = $.Deferred()
@@ -86,12 +88,41 @@ function getAddress(object,i){
         var allstr ='<tr><td>'+(i+1)+'</td><td>'+object.get("matchName")+'</td><td>'+address+'</td><td>'+object.get("matchType")+'</td>\
                         <td>'+object.createdAt+'</td><td>'+state+'</td><td><div class="btn-group">\
                         <a href="matchManspaceEdit.html?id='+object.id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
+                        <a  class="btn btn-warning btn-sm deleteList" onclick="aClock()"  value="'+object.id+'"><i class="fa"></i>下架</a>\
                         </div></td></tr>';
         return $deffer.resolve( allstr )
     });
     return $deffer.promise();
 }
+function aClock() {
+    var con;
+    con=confirm("确认下架?"); //在页面上弹出对话框
+    if(con==true){
+        var id = $("#xj").attr("value");
+        // alert($("#xj").attr("value"))
+        var Match = Bmob.Object.extend("Match");
+        var query = new Bmob.Query(Match);
+        query.get(id, {
+            success: function(object) {
+                // The object was retrieved successfully.
+                object.set("state", 2);
+                object.save(null, {
+                    success: function(objectUpdate) {
+                        alert("create object success, object score:"+objectUpdate.get("score"));
+                    },
+                    error: function(model, error) {
+                        alert("create object fail");
+                    }
+                });
+            },
+            error: function(object, error) {
+                alert("query object fail");
+            }
+        });
+    }
 
+
+}
 
 
 

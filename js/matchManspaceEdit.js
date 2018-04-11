@@ -2,6 +2,7 @@ window.onload = function () {
     var matchId = location.href.split('=')[1];
     var Match = Bmob.Object.extend("Match");
     var query = new Bmob.Query(Match);
+    query.include("user");
     query.get(matchId, {
         success: function(match) {
             // 查询成功，调用get方法获取对应属性的值
@@ -9,17 +10,21 @@ window.onload = function () {
             $('#type').val(match.get("matchType"));
             $('#spacedesc').val(match.get("configures").toString());
             $('#matchMess').val(match.get("matchMess"));
+            $('#user').val(match.get("user").get("username"));
+            $('#phone').val(match.get("phone"));
+            $('#matchTime').val(match.get("startTime")+" ~ "+match.get("endTIme"));
+
             //缩略图显示
-            // var thumbsHtml='';
-            // thumbsHtml+='<div class="imgwarp"><img src="'+match.get("matchImg")._url+'"></div>';
-            // $('#oldthumb').html(thumbsHtml);
+            var thumbsHtml='';
+            thumbsHtml+='<div class="imgwarp"><img src="'+match.get("matchImg")._url+'"></div>';
+            $('#oldthumb').html(thumbsHtml);
+            debugger
             var point = new BMap.Point(match.get("longitude"),match.get("latitude"));
             var gc = new BMap.Geocoder();
             gc.getLocation(point, function(rs) {
                 var addComp = rs.addressComponents;
                 var address = addComp.province+addComp.city + addComp.district
                     + addComp.street + addComp.streetNumber;
-
                 $('#matchAddr').val(address);
             });
 

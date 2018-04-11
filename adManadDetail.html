@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="ThemeBucket">
     <link rel="shortcut icon" href="images/favicon.png">
-    <title>比赛详情</title>
+    <title>广告详情</title>
     <!--Core CSS -->
     <link href="bs3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
@@ -29,12 +29,12 @@
             <div class="row second-head">
                 <div class="col-lg-12">
                     <div class="head-panel clearfix">
-                        <h2 class=" pull-left">比赛管理</h2>
+                        <h2 class=" pull-left">广告管理</h2>
                         <div class=" pull-right">
                             <ul class="breadcrumb">
                                 <li><a href="#"><i class="fa fa-home"></i> 主页</a></li>
-                                <li><a href="matchManspace.html" data-url="spaceManspace.html">比赛管理</a></li>
-                                <li class="active">比赛详情</li>
+                                <li><a href="adManad.html" data-url="spaceManspace.html">广告管理</a></li>
+                                <li class="active">广告详情</li>
                             </ul>
                         </div>
                     </div>
@@ -45,51 +45,57 @@
                 <div class="col-lg-12">
                     <section class="panel">
                         <header class="panel-heading">
-                            比赛详情
+                            新增广告
                         </header>
                         <div class="panel-body">
                             <div class="form">
                                 <form class="cmxform form-horizontal " id="signupForm" method="get" action="">
                                     
                                     <div class="form-group ">
-                                        <label for="matchName" class="control-label col-lg-3 col-sm-3">比赛名称</label>
+                                        <label for="adname" class="control-label col-lg-3 col-sm-3">广告名称</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="matchName" name="matchName" type="text" readonly = "readonly"/>
+                                            <input class="form-control " id="adname" name="adname" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="matchAddr" class="control-label col-lg-3 col-sm-3">比赛地址</label>
+                                        <label for="advertiser" class="control-label col-lg-3 col-sm-3">广告商</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="matchAddr" name="matchAddr" type="text" readonly = "readonly"/>
+                                            <input class="form-control " id="advertiser" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="matchTime" class="control-label col-lg-3 col-sm-3">比赛时间</label>
+                                        <label for="adPhone" class="control-label col-lg-3 col-sm-3">广告商联系电话</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="matchTime" name="matchTime" type="text" readonly = "readonly"/>
+                                            <input class="form-control " id="adPhone" type="text" readonly = "readonly" />
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="user" class="control-label col-lg-3 col-sm-3">举办方</label>
+                                        <label for="user" class="control-label col-lg-3 col-sm-3">接单人</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="user" name="user" type="text" readonly = "readonly"/>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="type" class="control-label col-lg-3 col-sm-3">比赛类别</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="type" type="text" readonly = "readonly"/>
+                                            <input class="form-control " id="user" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="phone" class="control-label col-lg-3 col-sm-3">联系电话</label>
+                                        <label for="startDate" class="control-label col-lg-3 col-sm-3">开始时间</label>
                                         <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="phone" name="phone" type="text" readonly = "readonly"/>
+                                            <input class="form-control " id="startDate" type="text" readonly = "readonly"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="endDate" class="control-label col-lg-3 col-sm-3">结束时间</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="endDate" type="text" readonly = "readonly"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="payment" class="control-label col-lg-3 col-sm-3">交易金额</label>
+                                        <div class="col-lg-6 col-sm-6">
+                                            <input class="form-control " id="payment" type="text" readonly = "readonly"/>
                                         </div>
                                     </div>
                                     <div id="thumbnail">
                                         <div class="form-group ">
-                                            <label for="thumbnail" class="control-label col-lg-3 col-sm-3">比赛图片</label>
+                                            <label for="thumbnail" class="control-label col-lg-3 col-sm-3">广告图</label>
                                             <div class="col-lg-8 col-sm-8" id="allthumb">
                                                 <div id="oldthumb"></div>
                                                 <div id="thumbs"></div>
@@ -97,32 +103,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="spacedesc" class="control-label col-lg-3 col-sm-3">比赛配置条件</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <input class="form-control " id="spacedesc" type="text" readonly = "readonly"/>
-                                        </div>
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="matchMess" class="control-label col-lg-3 col-sm-3">比赛其他信息</label>
-                                        <div class="col-lg-6 col-sm-6">
-                                            <textarea class="form-control" id="matchMess"readonly="readonly"></textarea>
-                                        </div>
-                                    </div>
-                                    <!--<div id="thumbnail">-->
-                                        <!--<div class="form-group ">-->
-                                            <!--<label for="thumbnail" class="control-label col-lg-3 col-sm-3">缩略图</label>-->
-                                            <!--<div class="col-lg-8 col-sm-8" id="allthumb">-->
-                                                <!--<div id="oldthumb"></div>-->
-                                                <!--<div id="thumbs"></div>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-
-                                    <div class="form-group">
                                         <div class="col-sm-offset-3 col-lg-6 col-sm-6">
-                                            <button class="btn btn-primary col-sm-3" id="saves" type="button" tag="修改" onclick="passed()">审核通过</button>
                                             <span class="addtip"></span>
-                                           <button class="btn btn-warning col-sm-3 pull-right" id="deletes" type="button" onclick="refuse()">审核拒绝</button>
+                                           <button class="btn btn-warning col-sm-3 pull-right" id="refuse" onclick="back()" type="button">返回</button>
                                         </div>
                                     </div>
                                 </form>
@@ -154,13 +137,11 @@
 <script type="text/javascript" src="js/tool.js"></script>
 
 <script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/matchManspaceEdit.js"></script>
+<script type="text/javascript" src="js/adManadDetail.js"></script>
 
 <script src="js/bmob/bmob-min.js "></script>
 <script src="js/bmob/key.js "></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
-
-
 
 </body>
 </html>

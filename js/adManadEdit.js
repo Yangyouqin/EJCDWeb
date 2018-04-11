@@ -1,11 +1,22 @@
 window.onload = function () {
-    var a = document.getElementById("deleteImg");
-    a.onclick = function () {
-        var str = '';
+        userList();
 
-        $('#oldthumb').append(str)
-    }
 }
+    function userList() {
+        var query = new Bmob.Query(Bmob.User);
+        //查出管理员和高级管理员
+        query.containedIn("userType", [2]);
+        query.descending("createdAt");
+        query.find({
+            success: function(managers) {
+                managers.forEach(function (value) {
+                    var str = '<option value="'+value.id+'">'+value.get("username")+'</option>'
+                    var str = '<option value="'+value.id+';'+value.get("username")+'">'+value.get("username")+'</option>'
+                    $('#user').append(str)
+                })
+            }
+        });
+    }
 function upload() {
     var fileUploadControl = $("#profilePhotoFileUpload")[0];
     if (fileUploadControl.files.length > 0) {
@@ -32,8 +43,8 @@ function passed(){
     advertisement.set("payment",parseInt($("#payment")[0].value));
     advertisement.set("adPhone",$("#adPhone")[0].value);
     advertisement.set("adName",$("#adname")[0].value);
-    advertisement.set("userId",$("#user")[0].value);
-    advertisement.set("adPhone",$("#adPhone")[0].value);
+    advertisement.set("userId",$("#user")[0].value.split(';')[0]);
+    advertisement.set("userName",$("#user")[0].value.split(';')[1]);
 
     var fileUploadControl = $("#profilePhotoFileUpload")[0];
     if (fileUploadControl.files.length > 0) {
@@ -43,11 +54,12 @@ function passed(){
             advertisement.set("adImgs",obj);
             advertisement.save(null, {
                 success: function(advertisement) {
-                    alert('添加数据成功，返回的objectId是：' + advertisement.id);
+                    alert("广告录入成功！")
+                    window.location.href="adManad.html";
                 },
                 error: function(advertisement, error) {
                     // 添加失败
-                    alert('添加数据失败，返回错误信息：' + error.description);
+                    // alert('添加数据失败，返回错误信息：' + error.description);
                 }
             });
         }, function(error) {

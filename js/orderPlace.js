@@ -25,7 +25,6 @@ function getManagerList(nowPage,pageSize,searchtext) {
     var Orders = Bmob.Object.extend("Orders");
     var query = new Bmob.Query(Orders);
     query.descending("createdAt");
-
     query.equalTo("typeId",typeId);
     query.limit(pageSize);
     query.skip((nowPage-1)*pageSize)

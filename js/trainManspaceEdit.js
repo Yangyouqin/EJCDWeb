@@ -19,7 +19,7 @@ window.onload = function () {
             //缩略图显示
             var thumbsHtml='';
             for(var i=0; i<train.get("trainImg1").length; i++){
-                thumbsHtml+='<div class="imgwarp"><img src="'+train.get("trainImg1")[i]._url+'"><a href="javascript:;" imgid="'+train.get("trainImg1")[i]._url+'">删除</a></div>';
+                thumbsHtml+='<div class="imgwarp"><img src="'+train.get("trainImg1")[i]._url+'"></div>';
             }
             $('#oldthumb').html(thumbsHtml);
             var point = new BMap.Point(train.get("longitude"),train.get("latitude"));

@@ -26,7 +26,6 @@ window.onload = function () {
                 var addComp = rs.addressComponents;
                 var address = addComp.province+addComp.city + addComp.district
                     + addComp.street + addComp.streetNumber;
-
                 $('#address').val(address);
             });
         },
@@ -79,7 +78,7 @@ function upload() {
         var file = fileUploadControl.files[0];
         var file = new Bmob.File(file.name, file);
         file.save().then(function(obj) {
-            var str = $('<div class="imgwarp"><img src="'+obj._url+'"><a href="javascript:;" imgid="'+obj._url+'">删除</a></div>')
+            var str = $('<div class="imgwarp"><img src="'+obj._url+'"></div>')
 			//把上传的图片加载在下方
             $('#oldthumb').append(str)
         }, function(error) {

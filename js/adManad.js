@@ -18,10 +18,9 @@ window.onload = function () {
 function getManagerList(nowPage,pageSize,searchtext) {
     var Diary = Bmob.Object.extend("Advertisement");
     var queryCount = new Bmob.Query(Diary);
-
-    var Orders = Bmob.Object.extend("Advertisement");
-    var query = new Bmob.Query(Orders);
-    query.include("user");
+    var Advertisement = Bmob.Object.extend("Advertisement");
+    var query = new Bmob.Query(Advertisement);
+    query.descending("createdAt");
     queryCount.count({
         success: function(count) {
             query.find({
@@ -32,10 +31,10 @@ function getManagerList(nowPage,pageSize,searchtext) {
                     if (results.length!=0) {
                         for(var i = 0; i<results.length; i++){
                             var str ='<tr><td>'+(i+1)+'</td><td>'+results[i].get("adName")+'</td><td>'+results[i].get("companyName")+'</td><td>'+results[i].get("adPhone")+'</td>\
-                        <td>'+results[i].get("user").get("username")+'</td><td>'+results[i].get("startDate")+"~"+results[i].get("endDate")+'</td><td>'+results[i].get("payment")+'</td>\
+                        <td>'+results[i].get("userName")+'</td><td>'+results[i].get("startDate")+"~"+results[i].get("endDate")+'</td><td>'+results[i].get("payment")+'</td>\
                         <td>'+results[i].updatedAt+'</td><td><div class="btn-group">\
-                        <a href="orderManspaceEdit.html?id='+results[i].id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
-                        <a href="showManagerEdit.html?id='+results[i].id+'" class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</a>\
+                        <a href="adManadDetail.html?id='+results[i].id+'" class="btn btn-primary btn-sm"><i class="fa fa-search-minus"></i>查看详情</a>\
+                        <a  class="btn btn-warning btn-sm deleteList"><i class="fa fa-times"></i>删除</a>\
                         </div></td></tr>';
                             allstr.push(str);
                         }
